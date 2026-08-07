@@ -1,0 +1,496 @@
+﻿Problem Number,Opened At,Resolved At,Category,Priority,Impact,State,Assignment Group,Assigned To,Location,Department,CI Name,Short Description,Known Error,Workaround,Related Incidents,Root Cause,Resolution Days,Month Year,Quarter
+PRB0000001,03-01-2022 17:31,,Network,3 - Medium,1 - Enterprise,Open,L2 Support,Anjali Singh,Kolkata,Marketing,SAP Production,Slow performance,Yes,Yes,12,Human error,,Jan-22,Q1-2022
+PRB0000002,07-12-2022 22:14,11-12-2022 22:14,Software,1 - Critical,3 - Multiple Users,Resolved,Security Ops,Vikram Joshi,Hyderabad,Operations,Email Gateway,Database timeout,No,No,8,Human error,4,Dec-22,Q4-2022
+PRB0000003,12-09-2022 20:53,13-11-2022 20:53,Hardware,1 - Critical,2 - Department,Resolved,App Support,Deepak Nair,Pune,Marketing,Active Directory,Service unavailable,No,No,8,Software defect,62,Sep-22,Q3-2022
+PRB0000004,28-10-2022 13:33,30-12-2022 13:33,Hardware,1 - Critical,2 - Department,Resolved,L1 Support,Deepak Nair,Chennai,Finance,CRM Application,Slow performance,No,Yes,3,Capacity issue,63,Oct-22,Q4-2022
+PRB0000005,22-09-2022 22:44,06-10-2022 22:44,Database,2 - High,3 - Multiple Users,Closed,L1 Support,Rahul Sharma,Delhi NCR,IT,ERP Server,Service unavailable,No,Yes,1,Network fault,14,Sep-22,Q3-2022
+PRB0000006,12-05-2022 21:04,,Hardware,2 - High,1 - Enterprise,Open,L1 Support,Rohan Verma,Chennai,Legal,Email Gateway,Cannot login,No,Yes,3,Human error,,May-22,Q2-2022
+PRB0000007,29-03-2022 20:07,,Access Management,4 - Low,4 - Individual,Open,L2 Support,Pooja Iyer,Mumbai,Finance,Load Balancer,Network outage,No,No,23,Capacity issue,,Mar-22,Q1-2022
+PRB0000008,27-04-2022 09:00,,Application,2 - High,3 - Multiple Users,In Progress,DB Admins,Rohan Verma,Kolkata,Marketing,Email Gateway,System not responding,Yes,No,5,Software defect,,Apr-22,Q2-2022
+PRB0000009,12-03-2022 18:00,,Security,1 - Critical,1 - Enterprise,In Progress,Security Ops,Deepak Nair,Delhi NCR,HR,ERP Server,VPN disconnecting,No,No,16,Configuration error,,Mar-22,Q1-2022
+PRB0000010,04-12-2022 15:45,,Email/Collaboration,3 - Medium,3 - Multiple Users,In Progress,Security Ops,Rahul Sharma,Chennai,Sales,ERP Server,Email not working,No,Yes,7,Human error,,Dec-22,Q4-2022
+PRB0000011,13-10-2022 07:23,02-12-2022 07:23,Security,1 - Critical,3 - Multiple Users,Closed,L1 Support,Kavya Reddy,Bangalore,Operations,Load Balancer,Slow performance,No,Yes,23,Human error,50,Oct-22,Q4-2022
+PRB0000012,03-03-2022 04:19,01-06-2022 04:19,Software,4 - Low,3 - Multiple Users,Resolved,DB Admins,Rohan Verma,Bangalore,HR,Email Gateway,Database timeout,Yes,Yes,11,Hardware failure,90,Mar-22,Q1-2022
+PRB0000013,30-12-2022 06:37,05-01-2023 06:37,Application,2 - High,1 - Enterprise,Closed,DB Admins,Amit Desai,Pune,Marketing,Email Gateway,Service unavailable,Yes,No,18,Capacity issue,6,Dec-22,Q4-2022
+PRB0000014,14-01-2022 08:48,05-02-2022 08:48,Network,1 - Critical,3 - Multiple Users,Closed,App Support,Rahul Sharma,Chennai,Procurement,Oracle DB,System not responding,Yes,Yes,6,Network fault,22,Jan-22,Q1-2022
+PRB0000015,17-04-2022 15:33,14-06-2022 15:33,Access Management,1 - Critical,3 - Multiple Users,Resolved,L1 Support,Priya Menon,Hyderabad,HR,Oracle DB,Application error,No,No,22,Vendor issue,58,Apr-22,Q2-2022
+PRB0000016,21-02-2022 20:40,16-04-2022 20:40,Application,3 - Medium,4 - Individual,Resolved,Security Ops,Priya Menon,Bangalore,Procurement,Active Directory,Slow performance,Yes,No,6,Hardware failure,54,Feb-22,Q1-2022
+PRB0000017,08-02-2022 10:59,28-03-2022 10:59,Email/Collaboration,1 - Critical,1 - Enterprise,Closed,Network Ops,Pooja Iyer,Delhi NCR,Sales,Firewall-01,Printer offline,Yes,Yes,14,Human error,48,Feb-22,Q1-2022
+PRB0000018,12-02-2022 14:11,09-05-2022 14:11,Email/Collaboration,2 - High,4 - Individual,Resolved,Security Ops,Priya Menon,Pune,IT,VPN Gateway,Printer offline,Yes,No,9,Vendor issue,86,Feb-22,Q1-2022
+PRB0000019,08-09-2022 07:27,,Network,3 - Medium,3 - Multiple Users,In Progress,DB Admins,Vikram Joshi,Mumbai,Finance,ERP Server,VPN disconnecting,No,No,21,Hardware failure,,Sep-22,Q3-2022
+PRB0000020,11-07-2022 21:49,22-08-2022 21:49,Access Management,1 - Critical,4 - Individual,Closed,Network Ops,Pooja Iyer,Kolkata,Legal,Firewall-01,System not responding,No,No,8,Hardware failure,42,Jul-22,Q3-2022
+PRB0000021,17-04-2022 14:36,,Access Management,2 - High,3 - Multiple Users,Open,L1 Support,Rohan Verma,Kolkata,Procurement,ERP Server,Printer offline,Yes,No,25,Capacity issue,,Apr-22,Q2-2022
+PRB0000022,11-07-2022 14:08,04-10-2022 14:08,Email/Collaboration,2 - High,2 - Department,Resolved,Security Ops,Anjali Singh,Pune,Procurement,Load Balancer,Network outage,No,Yes,4,Vendor issue,85,Jul-22,Q3-2022
+PRB0000023,31-08-2022 00:39,05-09-2022 00:39,Network,2 - High,3 - Multiple Users,Closed,L2 Support,Kavya Reddy,Delhi NCR,Marketing,Firewall-01,Cannot login,Yes,Yes,10,Hardware failure,5,Aug-22,Q3-2022
+PRB0000024,01-11-2022 08:13,,Email/Collaboration,3 - Medium,3 - Multiple Users,Open,DB Admins,Pooja Iyer,Hyderabad,IT,Core Switch,Printer offline,No,No,6,Hardware failure,,Nov-22,Q4-2022
+PRB0000025,10-05-2022 22:39,,Security,4 - Low,1 - Enterprise,Open,L2 Support,Deepak Nair,Bangalore,Legal,SAP Production,Printer offline,Yes,No,3,Vendor issue,,May-22,Q2-2022
+PRB0000026,13-11-2022 15:13,19-11-2022 15:13,Hardware,4 - Low,3 - Multiple Users,Resolved,L1 Support,Priya Menon,Mumbai,Procurement,ERP Server,Application error,Yes,No,25,Hardware failure,6,Nov-22,Q4-2022
+PRB0000027,26-09-2022 22:51,,Security,4 - Low,4 - Individual,In Progress,Security Ops,Kavya Reddy,Delhi NCR,Finance,Load Balancer,Network outage,Yes,Yes,21,Configuration error,,Sep-22,Q3-2022
+PRB0000028,25-07-2022 11:04,,Email/Collaboration,3 - Medium,1 - Enterprise,In Progress,Security Ops,Rahul Sharma,Mumbai,Legal,Core Switch,Printer offline,No,No,18,Configuration error,,Jul-22,Q3-2022
+PRB0000029,21-03-2022 01:52,27-03-2022 01:52,Access Management,1 - Critical,3 - Multiple Users,Resolved,Network Ops,Kavya Reddy,Pune,Sales,CRM Application,Database timeout,Yes,Yes,24,Capacity issue,6,Mar-22,Q1-2022
+PRB0000030,15-06-2022 21:27,19-08-2022 21:27,Access Management,1 - Critical,2 - Department,Closed,Network Ops,Rohan Verma,Delhi NCR,Marketing,Load Balancer,Service unavailable,No,Yes,14,Vendor issue,65,Jun-22,Q2-2022
+PRB0000031,28-01-2022 20:36,14-03-2022 20:36,Database,2 - High,3 - Multiple Users,Resolved,App Support,Vikram Joshi,Mumbai,HR,VPN Gateway,Network outage,Yes,No,17,Hardware failure,45,Jan-22,Q1-2022
+PRB0000032,07-06-2022 08:27,23-08-2022 08:27,Email/Collaboration,2 - High,1 - Enterprise,Resolved,L2 Support,Kavya Reddy,Hyderabad,Operations,CRM Application,Database timeout,Yes,No,13,Vendor issue,77,Jun-22,Q2-2022
+PRB0000033,13-11-2022 18:42,19-11-2022 18:42,Access Management,4 - Low,4 - Individual,Resolved,Network Ops,Pooja Iyer,Pune,HR,Core Switch,Application error,Yes,Yes,23,Human error,6,Nov-22,Q4-2022
+PRB0000034,26-07-2022 19:28,23-08-2022 19:28,Software,4 - Low,1 - Enterprise,Resolved,L1 Support,Rahul Sharma,Pune,Finance,Active Directory,Cannot login,No,No,10,Capacity issue,28,Jul-22,Q3-2022
+PRB0000035,27-08-2022 02:23,,Software,4 - Low,2 - Department,In Progress,L2 Support,Rohan Verma,Bangalore,IT,Active Directory,Application error,Yes,Yes,13,Software defect,,Aug-22,Q3-2022
+PRB0000036,25-03-2022 00:24,,Email/Collaboration,4 - Low,3 - Multiple Users,Open,Infra Team,Priya Menon,Mumbai,Finance,VPN Gateway,Printer offline,Yes,No,2,Network fault,,Mar-22,Q1-2022
+PRB0000037,18-02-2022 05:50,12-05-2022 05:50,Database,1 - Critical,4 - Individual,Resolved,Security Ops,Rohan Verma,Mumbai,HR,SAP Production,Email not working,Yes,Yes,7,Configuration error,83,Feb-22,Q1-2022
+PRB0000038,30-07-2022 18:57,,Database,4 - Low,3 - Multiple Users,In Progress,Infra Team,Priya Menon,Bangalore,Sales,SAP Production,Network outage,No,No,5,Vendor issue,,Jul-22,Q3-2022
+PRB0000039,08-03-2022 22:37,15-05-2022 22:37,Database,2 - High,1 - Enterprise,Closed,Network Ops,Deepak Nair,Kolkata,Sales,Active Directory,Service unavailable,No,Yes,19,Configuration error,68,Mar-22,Q1-2022
+PRB0000040,31-03-2022 13:17,19-05-2022 13:17,Security,3 - Medium,1 - Enterprise,Closed,L2 Support,Anjali Singh,Mumbai,Marketing,CRM Application,Email not working,Yes,No,9,Capacity issue,49,Mar-22,Q1-2022
+PRB0000041,21-04-2022 18:23,08-05-2022 18:23,Email/Collaboration,3 - Medium,1 - Enterprise,Closed,L1 Support,Vikram Joshi,Kolkata,Sales,Oracle DB,Printer offline,No,Yes,21,Network fault,17,Apr-22,Q2-2022
+PRB0000042,03-11-2022 19:03,,Software,3 - Medium,3 - Multiple Users,In Progress,DB Admins,Pooja Iyer,Delhi NCR,Legal,Email Gateway,Printer offline,No,No,16,Software defect,,Nov-22,Q4-2022
+PRB0000043,12-05-2022 12:42,05-07-2022 12:42,Access Management,4 - Low,1 - Enterprise,Resolved,App Support,Anjali Singh,Chennai,Marketing,SAP Production,Application error,Yes,Yes,20,Software defect,54,May-22,Q2-2022
+PRB0000044,16-02-2022 12:21,04-05-2022 12:21,Database,2 - High,2 - Department,Resolved,L2 Support,Deepak Nair,Delhi NCR,Finance,Oracle DB,System not responding,Yes,Yes,4,Human error,77,Feb-22,Q1-2022
+PRB0000045,05-01-2022 15:23,,Email/Collaboration,4 - Low,2 - Department,In Progress,DB Admins,Pooja Iyer,Kolkata,Legal,Core Switch,Slow performance,Yes,Yes,16,Human error,,Jan-22,Q1-2022
+PRB0000046,06-03-2022 19:47,,Database,1 - Critical,3 - Multiple Users,Open,L1 Support,Deepak Nair,Mumbai,Operations,Active Directory,Application error,Yes,Yes,14,Configuration error,,Mar-22,Q1-2022
+PRB0000047,05-06-2022 00:56,,Application,3 - Medium,3 - Multiple Users,In Progress,Security Ops,Deepak Nair,Mumbai,HR,VPN Gateway,Service unavailable,No,No,18,Capacity issue,,Jun-22,Q2-2022
+PRB0000048,30-12-2022 02:27,,Application,2 - High,2 - Department,Open,App Support,Amit Desai,Chennai,Sales,Oracle DB,Network outage,Yes,No,17,Configuration error,,Dec-22,Q4-2022
+PRB0000049,22-02-2022 22:56,,Database,3 - Medium,2 - Department,Open,Infra Team,Anjali Singh,Pune,Marketing,Core Switch,System not responding,No,Yes,18,Software defect,,Feb-22,Q1-2022
+PRB0000050,16-11-2022 02:04,18-11-2022 02:04,Access Management,2 - High,2 - Department,Closed,L1 Support,Amit Desai,Kolkata,Sales,CRM Application,Email not working,No,No,10,Human error,2,Nov-22,Q4-2022
+PRB0000051,05-03-2022 05:36,19-04-2022 05:36,Database,4 - Low,3 - Multiple Users,Resolved,DB Admins,Rohan Verma,Mumbai,Procurement,Oracle DB,Network outage,Yes,Yes,12,Capacity issue,45,Mar-22,Q1-2022
+PRB0000052,25-12-2022 11:17,03-01-2023 11:17,Network,3 - Medium,1 - Enterprise,Resolved,L2 Support,Pooja Iyer,Kolkata,Sales,SAP Production,Database timeout,No,No,13,Configuration error,9,Dec-22,Q4-2022
+PRB0000053,02-12-2022 07:40,07-12-2022 07:40,Email/Collaboration,3 - Medium,1 - Enterprise,Resolved,Network Ops,Priya Menon,Chennai,Operations,Email Gateway,VPN disconnecting,Yes,Yes,10,Vendor issue,5,Dec-22,Q4-2022
+PRB0000054,22-06-2022 10:28,25-06-2022 10:28,Software,4 - Low,3 - Multiple Users,Closed,L2 Support,Sneha Patil,Delhi NCR,Finance,Oracle DB,Application error,Yes,No,5,Configuration error,3,Jun-22,Q2-2022
+PRB0000055,02-10-2022 17:09,05-11-2022 17:09,Email/Collaboration,2 - High,2 - Department,Closed,L1 Support,Pooja Iyer,Hyderabad,Legal,VPN Gateway,Cannot login,No,No,12,Human error,34,Oct-22,Q4-2022
+PRB0000056,27-06-2022 04:21,,Hardware,2 - High,3 - Multiple Users,In Progress,DB Admins,Rahul Sharma,Bangalore,IT,Oracle DB,Network outage,No,Yes,2,Vendor issue,,Jun-22,Q2-2022
+PRB0000057,02-08-2022 02:59,,Access Management,2 - High,2 - Department,In Progress,App Support,Rohan Verma,Bangalore,Legal,Active Directory,Email not working,Yes,Yes,16,Vendor issue,,Aug-22,Q3-2022
+PRB0000058,15-02-2022 08:00,20-03-2022 08:00,Database,1 - Critical,3 - Multiple Users,Resolved,DB Admins,Deepak Nair,Pune,Finance,SAP Production,Email not working,Yes,Yes,12,Human error,33,Feb-22,Q1-2022
+PRB0000059,24-07-2022 23:10,04-08-2022 23:10,Access Management,4 - Low,1 - Enterprise,Resolved,Infra Team,Priya Menon,Chennai,Legal,CRM Application,Printer offline,Yes,Yes,13,Network fault,11,Jul-22,Q3-2022
+PRB0000060,28-02-2022 20:11,11-05-2022 20:11,Security,4 - Low,3 - Multiple Users,Closed,Network Ops,Priya Menon,Mumbai,Operations,VPN Gateway,System not responding,No,Yes,25,Network fault,72,Feb-22,Q1-2022
+PRB0000061,20-12-2022 11:23,30-12-2022 11:23,Security,3 - Medium,4 - Individual,Closed,Network Ops,Vikram Joshi,Hyderabad,Finance,Core Switch,VPN disconnecting,Yes,No,24,Configuration error,10,Dec-22,Q4-2022
+PRB0000062,01-01-2022 18:25,19-01-2022 18:25,Software,4 - Low,1 - Enterprise,Resolved,L2 Support,Rohan Verma,Chennai,Finance,Email Gateway,Database timeout,Yes,Yes,21,Human error,18,Jan-22,Q1-2022
+PRB0000063,16-01-2022 06:39,,Access Management,2 - High,1 - Enterprise,In Progress,L1 Support,Vikram Joshi,Bangalore,Marketing,Email Gateway,Cannot login,No,No,16,Network fault,,Jan-22,Q1-2022
+PRB0000064,30-11-2022 17:22,04-12-2022 17:22,Database,2 - High,3 - Multiple Users,Resolved,DB Admins,Rahul Sharma,Hyderabad,Operations,Oracle DB,System not responding,No,No,21,Network fault,4,Nov-22,Q4-2022
+PRB0000065,16-02-2022 00:26,23-04-2022 00:26,Application,3 - Medium,3 - Multiple Users,Closed,L1 Support,Kavya Reddy,Delhi NCR,IT,ERP Server,Service unavailable,No,No,13,Software defect,66,Feb-22,Q1-2022
+PRB0000066,12-01-2022 09:31,,Hardware,4 - Low,4 - Individual,In Progress,Network Ops,Amit Desai,Pune,Procurement,ERP Server,Slow performance,Yes,No,3,Vendor issue,,Jan-22,Q1-2022
+PRB0000067,29-06-2022 08:31,16-09-2022 08:31,Security,2 - High,4 - Individual,Closed,Infra Team,Anjali Singh,Delhi NCR,Legal,Firewall-01,Email not working,Yes,No,8,Vendor issue,79,Jun-22,Q2-2022
+PRB0000068,18-09-2022 05:39,22-10-2022 05:39,Email/Collaboration,2 - High,1 - Enterprise,Resolved,L2 Support,Anjali Singh,Chennai,Sales,Load Balancer,Network outage,No,No,2,Software defect,34,Sep-22,Q3-2022
+PRB0000069,23-11-2022 06:23,,Email/Collaboration,2 - High,2 - Department,In Progress,L1 Support,Rahul Sharma,Chennai,Procurement,ERP Server,System not responding,No,Yes,10,Hardware failure,,Nov-22,Q4-2022
+PRB0000070,16-08-2022 02:00,07-11-2022 02:00,Email/Collaboration,4 - Low,1 - Enterprise,Resolved,Security Ops,Amit Desai,Chennai,Marketing,SAP Production,Network outage,No,No,1,Network fault,83,Aug-22,Q3-2022
+PRB0000071,23-06-2022 04:55,,Access Management,3 - Medium,3 - Multiple Users,In Progress,Security Ops,Amit Desai,Delhi NCR,Operations,VPN Gateway,Cannot login,Yes,Yes,24,Capacity issue,,Jun-22,Q2-2022
+PRB0000072,08-09-2022 20:57,20-11-2022 20:57,Application,1 - Critical,4 - Individual,Resolved,Security Ops,Rohan Verma,Pune,Sales,ERP Server,Email not working,No,No,11,Hardware failure,73,Sep-22,Q3-2022
+PRB0000073,07-04-2022 10:00,,Network,4 - Low,3 - Multiple Users,In Progress,Infra Team,Deepak Nair,Pune,Operations,Load Balancer,System not responding,No,No,14,Capacity issue,,Apr-22,Q2-2022
+PRB0000074,13-10-2022 01:43,,Hardware,3 - Medium,1 - Enterprise,Open,DB Admins,Pooja Iyer,Hyderabad,Operations,Load Balancer,Application error,Yes,No,18,Software defect,,Oct-22,Q4-2022
+PRB0000075,20-02-2022 14:48,10-05-2022 14:48,Security,1 - Critical,1 - Enterprise,Resolved,L1 Support,Sneha Patil,Kolkata,Procurement,CRM Application,System not responding,No,Yes,16,Software defect,79,Feb-22,Q1-2022
+PRB0000076,20-02-2022 04:17,,Security,2 - High,4 - Individual,In Progress,Network Ops,Priya Menon,Hyderabad,HR,VPN Gateway,Network outage,No,Yes,6,Hardware failure,,Feb-22,Q1-2022
+PRB0000077,22-12-2022 12:23,26-12-2022 12:23,Access Management,2 - High,3 - Multiple Users,Resolved,Infra Team,Sneha Patil,Kolkata,Procurement,SAP Production,Application error,Yes,Yes,10,Network fault,4,Dec-22,Q4-2022
+PRB0000078,22-03-2022 13:48,10-06-2022 13:48,Email/Collaboration,1 - Critical,1 - Enterprise,Resolved,Network Ops,Sneha Patil,Hyderabad,Marketing,SAP Production,System not responding,No,Yes,25,Network fault,80,Mar-22,Q1-2022
+PRB0000079,13-04-2022 20:47,26-06-2022 20:47,Email/Collaboration,1 - Critical,1 - Enterprise,Resolved,Infra Team,Vikram Joshi,Delhi NCR,IT,ERP Server,Printer offline,Yes,No,11,Hardware failure,74,Apr-22,Q2-2022
+PRB0000080,05-10-2022 07:49,,Database,2 - High,1 - Enterprise,Open,Security Ops,Rahul Sharma,Bangalore,Procurement,VPN Gateway,Email not working,No,Yes,10,Configuration error,,Oct-22,Q4-2022
+PRB0000081,22-12-2022 17:00,24-12-2022 17:00,Application,3 - Medium,3 - Multiple Users,Resolved,Security Ops,Rahul Sharma,Mumbai,IT,Email Gateway,Email not working,Yes,No,19,Configuration error,2,Dec-22,Q4-2022
+PRB0000082,15-10-2022 17:09,,Email/Collaboration,1 - Critical,3 - Multiple Users,In Progress,L2 Support,Sneha Patil,Bangalore,Operations,Firewall-01,Email not working,No,Yes,21,Vendor issue,,Oct-22,Q4-2022
+PRB0000083,20-09-2022 23:39,12-12-2022 23:39,Security,3 - Medium,4 - Individual,Resolved,L2 Support,Rohan Verma,Mumbai,IT,Load Balancer,Database timeout,Yes,Yes,14,Vendor issue,83,Sep-22,Q3-2022
+PRB0000084,26-05-2022 13:27,,Hardware,1 - Critical,1 - Enterprise,In Progress,DB Admins,Vikram Joshi,Pune,Marketing,Core Switch,Service unavailable,No,Yes,21,Network fault,,May-22,Q2-2022
+PRB0000085,06-12-2022 23:21,,Network,2 - High,2 - Department,In Progress,Network Ops,Anjali Singh,Pune,Legal,VPN Gateway,Printer offline,Yes,Yes,13,Capacity issue,,Dec-22,Q4-2022
+PRB0000086,06-08-2022 14:21,25-08-2022 14:21,Security,4 - Low,2 - Department,Resolved,App Support,Pooja Iyer,Kolkata,Marketing,Core Switch,Network outage,Yes,No,4,Network fault,19,Aug-22,Q3-2022
+PRB0000087,31-07-2022 19:27,,Application,1 - Critical,4 - Individual,In Progress,Infra Team,Rahul Sharma,Chennai,Sales,CRM Application,VPN disconnecting,No,No,20,Capacity issue,,Jul-22,Q3-2022
+PRB0000088,14-06-2022 16:09,18-06-2022 16:09,Hardware,2 - High,3 - Multiple Users,Resolved,DB Admins,Priya Menon,Delhi NCR,Marketing,Oracle DB,Database timeout,Yes,Yes,25,Configuration error,4,Jun-22,Q2-2022
+PRB0000089,18-01-2022 20:02,,Database,1 - Critical,1 - Enterprise,In Progress,L1 Support,Rahul Sharma,Kolkata,IT,SAP Production,Slow performance,Yes,No,24,Vendor issue,,Jan-22,Q1-2022
+PRB0000090,02-11-2022 12:32,02-12-2022 12:32,Security,3 - Medium,3 - Multiple Users,Resolved,Security Ops,Priya Menon,Mumbai,HR,Load Balancer,Network outage,Yes,Yes,17,Hardware failure,30,Nov-22,Q4-2022
+PRB0000091,11-05-2022 04:05,26-07-2022 04:05,Database,1 - Critical,2 - Department,Closed,L2 Support,Vikram Joshi,Chennai,Marketing,Load Balancer,Application error,No,Yes,13,Capacity issue,76,May-22,Q2-2022
+PRB0000092,06-05-2022 14:21,16-05-2022 14:21,Software,4 - Low,1 - Enterprise,Resolved,Security Ops,Anjali Singh,Chennai,Sales,ERP Server,Email not working,Yes,No,24,Software defect,10,May-22,Q2-2022
+PRB0000093,20-07-2022 10:32,22-08-2022 10:32,Email/Collaboration,4 - Low,3 - Multiple Users,Closed,App Support,Rohan Verma,Hyderabad,Operations,Oracle DB,Application error,No,No,19,Capacity issue,33,Jul-22,Q3-2022
+PRB0000094,03-07-2022 17:32,11-09-2022 17:32,Email/Collaboration,2 - High,3 - Multiple Users,Resolved,Network Ops,Deepak Nair,Bangalore,Sales,VPN Gateway,Application error,No,Yes,17,Human error,70,Jul-22,Q3-2022
+PRB0000095,16-02-2022 21:54,,Software,1 - Critical,1 - Enterprise,Open,L1 Support,Rahul Sharma,Pune,Procurement,Load Balancer,Cannot login,Yes,Yes,13,Vendor issue,,Feb-22,Q1-2022
+PRB0000096,20-11-2022 00:19,29-11-2022 00:19,Email/Collaboration,3 - Medium,4 - Individual,Resolved,L2 Support,Sneha Patil,Chennai,Finance,Firewall-01,Database timeout,Yes,No,4,Network fault,9,Nov-22,Q4-2022
+PRB0000097,04-10-2022 01:07,24-12-2022 01:07,Software,4 - Low,3 - Multiple Users,Resolved,App Support,Anjali Singh,Delhi NCR,Procurement,Firewall-01,Application error,Yes,Yes,13,Configuration error,81,Oct-22,Q4-2022
+PRB0000098,13-09-2022 23:03,06-11-2022 23:03,Software,2 - High,4 - Individual,Closed,L1 Support,Anjali Singh,Chennai,Legal,Load Balancer,Database timeout,No,Yes,15,Configuration error,54,Sep-22,Q3-2022
+PRB0000099,17-03-2022 10:14,30-04-2022 10:14,Software,3 - Medium,2 - Department,Closed,Security Ops,Priya Menon,Bangalore,IT,VPN Gateway,Service unavailable,No,No,16,Human error,44,Mar-22,Q1-2022
+PRB0000100,19-07-2022 23:18,04-09-2022 23:18,Email/Collaboration,3 - Medium,2 - Department,Closed,App Support,Amit Desai,Pune,Operations,Active Directory,Database timeout,No,Yes,10,Network fault,47,Jul-22,Q3-2022
+PRB0000101,22-06-2023 20:59,28-06-2023 20:59,Software,1 - Critical,4 - Individual,Resolved,DB Admins,Pooja Iyer,Bangalore,IT,Email Gateway,Service unavailable,Yes,No,8,Software defect,6,Jun-23,Q2-2023
+PRB0000102,25-09-2023 14:24,14-12-2023 14:24,Database,3 - Medium,2 - Department,Closed,Security Ops,Sneha Patil,Kolkata,Marketing,ERP Server,Database timeout,No,No,19,Vendor issue,80,Sep-23,Q3-2023
+PRB0000103,13-10-2023 07:37,,Security,4 - Low,2 - Department,In Progress,App Support,Amit Desai,Hyderabad,Finance,VPN Gateway,Slow performance,Yes,Yes,13,Configuration error,,Oct-23,Q4-2023
+PRB0000104,27-10-2023 17:43,,Network,2 - High,2 - Department,In Progress,Security Ops,Amit Desai,Bangalore,Marketing,Active Directory,Service unavailable,No,No,11,Vendor issue,,Oct-23,Q4-2023
+PRB0000105,14-03-2023 23:04,,Security,2 - High,4 - Individual,In Progress,App Support,Amit Desai,Chennai,Finance,SAP Production,Database timeout,No,No,18,Capacity issue,,Mar-23,Q1-2023
+PRB0000106,19-05-2023 08:39,,Database,3 - Medium,3 - Multiple Users,Open,Network Ops,Vikram Joshi,Bangalore,Operations,CRM Application,Slow performance,No,No,16,Network fault,,May-23,Q2-2023
+PRB0000107,08-07-2023 15:34,13-09-2023 15:34,Security,3 - Medium,3 - Multiple Users,Closed,App Support,Deepak Nair,Chennai,Marketing,CRM Application,VPN disconnecting,No,Yes,14,Capacity issue,67,Jul-23,Q3-2023
+PRB0000108,14-12-2023 22:16,22-12-2023 22:16,Access Management,4 - Low,2 - Department,Resolved,L2 Support,Rahul Sharma,Pune,Procurement,ERP Server,Printer offline,Yes,No,18,Configuration error,8,Dec-23,Q4-2023
+PRB0000109,07-06-2023 19:15,16-06-2023 19:15,Access Management,1 - Critical,1 - Enterprise,Resolved,Infra Team,Rahul Sharma,Kolkata,IT,Load Balancer,VPN disconnecting,Yes,No,9,Hardware failure,9,Jun-23,Q2-2023
+PRB0000110,20-03-2023 23:58,16-05-2023 23:58,Application,4 - Low,4 - Individual,Resolved,Infra Team,Vikram Joshi,Chennai,Marketing,Oracle DB,Slow performance,Yes,Yes,10,Network fault,57,Mar-23,Q1-2023
+PRB0000111,15-04-2023 17:59,08-07-2023 17:59,Access Management,2 - High,4 - Individual,Resolved,L1 Support,Rohan Verma,Delhi NCR,Procurement,CRM Application,Database timeout,No,Yes,5,Capacity issue,84,Apr-23,Q2-2023
+PRB0000112,19-03-2023 13:21,12-05-2023 13:21,Network,3 - Medium,3 - Multiple Users,Closed,L2 Support,Amit Desai,Hyderabad,Finance,Oracle DB,Cannot login,No,No,22,Vendor issue,54,Mar-23,Q1-2023
+PRB0000113,25-01-2023 00:58,,Application,4 - Low,4 - Individual,Open,Network Ops,Rahul Sharma,Pune,Finance,SAP Production,Email not working,Yes,No,22,Vendor issue,,Jan-23,Q1-2023
+PRB0000114,27-10-2023 15:09,29-10-2023 15:09,Security,3 - Medium,2 - Department,Resolved,L1 Support,Kavya Reddy,Hyderabad,Legal,Firewall-01,System not responding,Yes,No,13,Software defect,2,Oct-23,Q4-2023
+PRB0000115,30-07-2023 15:01,30-09-2023 15:01,Email/Collaboration,2 - High,3 - Multiple Users,Closed,L1 Support,Rohan Verma,Pune,Legal,Core Switch,Email not working,Yes,No,19,Configuration error,62,Jul-23,Q3-2023
+PRB0000116,08-04-2023 10:46,,Email/Collaboration,4 - Low,4 - Individual,In Progress,L1 Support,Kavya Reddy,Delhi NCR,HR,Firewall-01,Network outage,Yes,No,14,Human error,,Apr-23,Q2-2023
+PRB0000117,03-12-2023 21:43,29-12-2023 21:43,Hardware,2 - High,3 - Multiple Users,Resolved,Network Ops,Priya Menon,Kolkata,Operations,Core Switch,Email not working,No,No,17,Configuration error,26,Dec-23,Q4-2023
+PRB0000118,30-09-2023 14:39,26-11-2023 14:39,Software,4 - Low,2 - Department,Closed,DB Admins,Amit Desai,Chennai,Operations,Active Directory,Database timeout,No,No,16,Network fault,57,Sep-23,Q3-2023
+PRB0000119,13-03-2023 01:05,02-06-2023 01:05,Database,4 - Low,4 - Individual,Resolved,DB Admins,Pooja Iyer,Kolkata,HR,Active Directory,Service unavailable,Yes,No,5,Network fault,81,Mar-23,Q1-2023
+PRB0000120,08-11-2023 00:34,18-11-2023 00:34,Security,4 - Low,2 - Department,Resolved,App Support,Vikram Joshi,Bangalore,IT,VPN Gateway,Application error,Yes,No,10,Capacity issue,10,Nov-23,Q4-2023
+PRB0000121,05-10-2023 23:25,27-12-2023 23:25,Network,3 - Medium,4 - Individual,Closed,Network Ops,Amit Desai,Kolkata,Finance,CRM Application,Network outage,Yes,Yes,1,Hardware failure,83,Oct-23,Q4-2023
+PRB0000122,27-04-2023 17:43,,Database,3 - Medium,3 - Multiple Users,In Progress,DB Admins,Deepak Nair,Chennai,Procurement,VPN Gateway,Printer offline,No,No,23,Software defect,,Apr-23,Q2-2023
+PRB0000123,21-03-2023 22:03,10-04-2023 22:03,Software,2 - High,2 - Department,Closed,L1 Support,Amit Desai,Chennai,Legal,Core Switch,Service unavailable,Yes,No,10,Vendor issue,20,Mar-23,Q1-2023
+PRB0000124,15-12-2023 01:06,,Access Management,3 - Medium,2 - Department,In Progress,Infra Team,Amit Desai,Bangalore,HR,Oracle DB,Service unavailable,No,Yes,8,Vendor issue,,Dec-23,Q4-2023
+PRB0000125,20-10-2023 02:18,,Email/Collaboration,2 - High,2 - Department,In Progress,Security Ops,Anjali Singh,Pune,Operations,Load Balancer,System not responding,Yes,No,10,Hardware failure,,Oct-23,Q4-2023
+PRB0000126,14-05-2023 04:01,,Access Management,2 - High,1 - Enterprise,In Progress,Security Ops,Anjali Singh,Pune,Finance,Core Switch,Database timeout,Yes,Yes,20,Configuration error,,May-23,Q2-2023
+PRB0000127,30-03-2023 01:21,08-04-2023 01:21,Database,1 - Critical,3 - Multiple Users,Closed,Infra Team,Kavya Reddy,Kolkata,Marketing,SAP Production,System not responding,Yes,Yes,2,Capacity issue,9,Mar-23,Q1-2023
+PRB0000128,16-08-2023 13:08,08-09-2023 13:08,Software,2 - High,2 - Department,Closed,Infra Team,Kavya Reddy,Kolkata,Procurement,Load Balancer,VPN disconnecting,Yes,Yes,22,Human error,23,Aug-23,Q3-2023
+PRB0000129,23-11-2023 17:43,03-12-2023 17:43,Software,1 - Critical,2 - Department,Closed,Security Ops,Deepak Nair,Kolkata,IT,ERP Server,Service unavailable,Yes,No,25,Configuration error,10,Nov-23,Q4-2023
+PRB0000130,06-10-2023 02:53,,Database,2 - High,1 - Enterprise,Open,L1 Support,Priya Menon,Delhi NCR,Sales,ERP Server,System not responding,Yes,Yes,8,Vendor issue,,Oct-23,Q4-2023
+PRB0000131,13-06-2023 01:45,17-06-2023 01:45,Software,2 - High,2 - Department,Closed,L1 Support,Anjali Singh,Delhi NCR,HR,Active Directory,Email not working,No,No,8,Hardware failure,4,Jun-23,Q2-2023
+PRB0000132,29-12-2023 08:41,30-12-2023 08:41,Application,2 - High,3 - Multiple Users,Resolved,DB Admins,Pooja Iyer,Chennai,Legal,ERP Server,VPN disconnecting,No,Yes,7,Configuration error,1,Dec-23,Q4-2023
+PRB0000133,12-09-2023 22:34,30-11-2023 22:34,Software,1 - Critical,1 - Enterprise,Resolved,Security Ops,Priya Menon,Pune,Procurement,Email Gateway,Slow performance,No,No,19,Human error,79,Sep-23,Q3-2023
+PRB0000134,04-03-2023 08:21,07-05-2023 08:21,Database,4 - Low,4 - Individual,Closed,DB Admins,Anjali Singh,Delhi NCR,HR,Oracle DB,Network outage,Yes,No,12,Network fault,64,Mar-23,Q1-2023
+PRB0000135,09-01-2023 21:14,,Network,3 - Medium,1 - Enterprise,Open,DB Admins,Anjali Singh,Bangalore,HR,Oracle DB,Service unavailable,Yes,No,2,Vendor issue,,Jan-23,Q1-2023
+PRB0000136,02-09-2023 08:26,20-09-2023 08:26,Network,1 - Critical,2 - Department,Resolved,DB Admins,Kavya Reddy,Mumbai,Operations,ERP Server,Network outage,Yes,Yes,5,Vendor issue,18,Sep-23,Q3-2023
+PRB0000137,08-05-2023 06:52,18-07-2023 06:52,Network,1 - Critical,2 - Department,Closed,App Support,Deepak Nair,Bangalore,IT,Active Directory,Slow performance,No,No,13,Human error,71,May-23,Q2-2023
+PRB0000138,12-10-2023 22:26,21-10-2023 22:26,Network,1 - Critical,1 - Enterprise,Closed,Network Ops,Anjali Singh,Bangalore,Sales,CRM Application,VPN disconnecting,Yes,Yes,18,Capacity issue,9,Oct-23,Q4-2023
+PRB0000139,01-08-2023 13:29,14-08-2023 13:29,Application,1 - Critical,4 - Individual,Resolved,App Support,Kavya Reddy,Kolkata,Operations,Load Balancer,Email not working,Yes,No,22,Software defect,13,Aug-23,Q3-2023
+PRB0000140,08-07-2023 23:46,01-09-2023 23:46,Security,3 - Medium,3 - Multiple Users,Closed,Infra Team,Priya Menon,Pune,Procurement,SAP Production,VPN disconnecting,No,No,7,Network fault,55,Jul-23,Q3-2023
+PRB0000141,08-06-2023 23:48,02-09-2023 23:48,Network,2 - High,4 - Individual,Resolved,Infra Team,Vikram Joshi,Pune,Finance,Active Directory,System not responding,No,Yes,22,Capacity issue,86,Jun-23,Q2-2023
+PRB0000142,26-12-2023 14:49,04-01-2024 14:49,Hardware,2 - High,1 - Enterprise,Closed,L2 Support,Anjali Singh,Hyderabad,Sales,VPN Gateway,Printer offline,No,No,21,Capacity issue,9,Dec-23,Q4-2023
+PRB0000143,28-10-2023 19:25,,Access Management,4 - Low,2 - Department,In Progress,App Support,Anjali Singh,Pune,Finance,Oracle DB,Application error,No,No,20,Hardware failure,,Oct-23,Q4-2023
+PRB0000144,15-11-2023 09:12,,Access Management,3 - Medium,1 - Enterprise,Open,DB Admins,Pooja Iyer,Hyderabad,Operations,Core Switch,Printer offline,No,No,2,Capacity issue,,Nov-23,Q4-2023
+PRB0000145,08-01-2023 13:19,,Access Management,3 - Medium,3 - Multiple Users,Open,L1 Support,Rohan Verma,Mumbai,HR,SAP Production,Network outage,Yes,No,4,Human error,,Jan-23,Q1-2023
+PRB0000146,27-07-2023 18:11,09-08-2023 18:11,Email/Collaboration,3 - Medium,3 - Multiple Users,Resolved,L2 Support,Priya Menon,Delhi NCR,Operations,Oracle DB,Cannot login,No,No,1,Configuration error,13,Jul-23,Q3-2023
+PRB0000147,19-09-2023 12:40,,Access Management,4 - Low,3 - Multiple Users,In Progress,L2 Support,Rahul Sharma,Bangalore,HR,VPN Gateway,VPN disconnecting,Yes,No,19,Configuration error,,Sep-23,Q3-2023
+PRB0000148,07-07-2023 01:04,12-09-2023 01:04,Application,2 - High,4 - Individual,Closed,Network Ops,Rahul Sharma,Delhi NCR,Sales,VPN Gateway,Application error,No,No,16,Software defect,67,Jul-23,Q3-2023
+PRB0000149,09-01-2023 04:39,13-02-2023 04:39,Network,3 - Medium,4 - Individual,Resolved,DB Admins,Vikram Joshi,Pune,Legal,Firewall-01,Cannot login,No,No,16,Vendor issue,35,Jan-23,Q1-2023
+PRB0000150,13-04-2023 15:16,07-07-2023 15:16,Hardware,3 - Medium,3 - Multiple Users,Resolved,DB Admins,Rohan Verma,Bangalore,Sales,Email Gateway,Network outage,No,No,20,Hardware failure,85,Apr-23,Q2-2023
+PRB0000151,29-08-2023 06:48,22-11-2023 06:48,Email/Collaboration,1 - Critical,1 - Enterprise,Resolved,App Support,Deepak Nair,Kolkata,HR,VPN Gateway,Application error,No,Yes,2,Configuration error,85,Aug-23,Q3-2023
+PRB0000152,02-02-2023 06:41,15-02-2023 06:41,Email/Collaboration,2 - High,3 - Multiple Users,Closed,DB Admins,Sneha Patil,Delhi NCR,IT,CRM Application,Database timeout,No,Yes,22,Capacity issue,13,Feb-23,Q1-2023
+PRB0000153,17-02-2023 04:37,11-05-2023 04:37,Software,3 - Medium,3 - Multiple Users,Closed,App Support,Pooja Iyer,Hyderabad,Sales,Email Gateway,Network outage,No,No,13,Hardware failure,83,Feb-23,Q1-2023
+PRB0000154,12-05-2023 04:39,,Security,1 - Critical,1 - Enterprise,Open,L1 Support,Amit Desai,Bangalore,Procurement,Load Balancer,Email not working,No,Yes,13,Vendor issue,,May-23,Q2-2023
+PRB0000155,07-05-2023 04:51,17-07-2023 04:51,Access Management,1 - Critical,2 - Department,Resolved,Security Ops,Deepak Nair,Mumbai,IT,Load Balancer,Cannot login,Yes,No,20,Human error,71,May-23,Q2-2023
+PRB0000156,19-06-2023 14:13,25-06-2023 14:13,Access Management,3 - Medium,2 - Department,Closed,L1 Support,Pooja Iyer,Kolkata,Legal,ERP Server,VPN disconnecting,Yes,No,5,Hardware failure,6,Jun-23,Q2-2023
+PRB0000157,09-09-2023 04:40,,Email/Collaboration,4 - Low,2 - Department,Open,L1 Support,Rohan Verma,Pune,Legal,Oracle DB,Email not working,No,Yes,20,Vendor issue,,Sep-23,Q3-2023
+PRB0000158,26-07-2023 02:36,26-09-2023 02:36,Email/Collaboration,4 - Low,1 - Enterprise,Resolved,Infra Team,Kavya Reddy,Pune,Sales,Firewall-01,VPN disconnecting,No,No,1,Capacity issue,62,Jul-23,Q3-2023
+PRB0000159,03-01-2023 23:21,18-02-2023 23:21,Access Management,4 - Low,1 - Enterprise,Closed,Network Ops,Vikram Joshi,Delhi NCR,Finance,Email Gateway,Database timeout,No,No,23,Hardware failure,46,Jan-23,Q1-2023
+PRB0000160,23-01-2023 07:02,20-02-2023 07:02,Application,4 - Low,2 - Department,Closed,Security Ops,Rohan Verma,Hyderabad,Operations,Oracle DB,Slow performance,Yes,Yes,13,Software defect,28,Jan-23,Q1-2023
+PRB0000161,27-11-2023 20:33,05-12-2023 20:33,Hardware,1 - Critical,2 - Department,Closed,Network Ops,Kavya Reddy,Bangalore,Marketing,VPN Gateway,Database timeout,No,Yes,10,Human error,8,Nov-23,Q4-2023
+PRB0000162,24-12-2023 06:29,,Hardware,1 - Critical,2 - Department,In Progress,Infra Team,Deepak Nair,Pune,Procurement,VPN Gateway,Cannot login,No,Yes,25,Human error,,Dec-23,Q4-2023
+PRB0000163,18-12-2023 13:10,,Application,1 - Critical,2 - Department,In Progress,L1 Support,Priya Menon,Mumbai,Sales,Load Balancer,Service unavailable,No,No,15,Software defect,,Dec-23,Q4-2023
+PRB0000164,15-06-2023 13:57,13-09-2023 13:57,Application,1 - Critical,3 - Multiple Users,Resolved,Infra Team,Priya Menon,Bangalore,Marketing,Firewall-01,Slow performance,Yes,Yes,17,Configuration error,90,Jun-23,Q2-2023
+PRB0000165,23-10-2023 07:18,,Software,2 - High,1 - Enterprise,In Progress,Infra Team,Vikram Joshi,Delhi NCR,Marketing,Email Gateway,System not responding,No,No,13,Human error,,Oct-23,Q4-2023
+PRB0000166,03-01-2023 02:49,,Database,4 - Low,3 - Multiple Users,Open,DB Admins,Deepak Nair,Pune,Legal,Load Balancer,Application error,Yes,Yes,24,Vendor issue,,Jan-23,Q1-2023
+PRB0000167,02-04-2023 23:37,10-06-2023 23:37,Network,4 - Low,1 - Enterprise,Resolved,L1 Support,Rahul Sharma,Kolkata,HR,ERP Server,Cannot login,Yes,Yes,7,Vendor issue,69,Apr-23,Q2-2023
+PRB0000168,07-08-2023 04:55,,Hardware,1 - Critical,4 - Individual,In Progress,L2 Support,Rohan Verma,Mumbai,HR,Firewall-01,Email not working,Yes,No,21,Software defect,,Aug-23,Q3-2023
+PRB0000169,30-04-2023 00:18,02-07-2023 00:18,Network,4 - Low,1 - Enterprise,Closed,DB Admins,Sneha Patil,Delhi NCR,HR,CRM Application,Cannot login,Yes,Yes,12,Human error,63,Apr-23,Q2-2023
+PRB0000170,28-10-2023 18:40,06-12-2023 18:40,Software,2 - High,1 - Enterprise,Closed,Network Ops,Rahul Sharma,Bangalore,Operations,CRM Application,Slow performance,Yes,No,5,Capacity issue,39,Oct-23,Q4-2023
+PRB0000171,30-08-2023 02:34,,Software,4 - Low,1 - Enterprise,In Progress,Network Ops,Sneha Patil,Kolkata,Finance,CRM Application,Cannot login,No,Yes,18,Hardware failure,,Aug-23,Q3-2023
+PRB0000172,25-03-2023 07:58,17-06-2023 07:58,Application,3 - Medium,2 - Department,Closed,L1 Support,Sneha Patil,Mumbai,Legal,Active Directory,System not responding,No,No,15,Network fault,84,Mar-23,Q1-2023
+PRB0000173,02-07-2023 13:01,12-08-2023 13:01,Email/Collaboration,1 - Critical,4 - Individual,Resolved,Security Ops,Rohan Verma,Chennai,Sales,Core Switch,Database timeout,Yes,No,12,Network fault,41,Jul-23,Q3-2023
+PRB0000174,31-05-2023 17:51,,Security,2 - High,4 - Individual,In Progress,DB Admins,Kavya Reddy,Hyderabad,Finance,Active Directory,Slow performance,Yes,No,17,Hardware failure,,May-23,Q2-2023
+PRB0000175,19-10-2023 12:59,,Security,1 - Critical,4 - Individual,Open,Infra Team,Priya Menon,Kolkata,Operations,ERP Server,Service unavailable,Yes,No,2,Hardware failure,,Oct-23,Q4-2023
+PRB0000176,20-04-2023 03:55,,Database,2 - High,2 - Department,Open,App Support,Vikram Joshi,Chennai,Procurement,Email Gateway,Service unavailable,Yes,Yes,20,Human error,,Apr-23,Q2-2023
+PRB0000177,13-03-2023 14:35,20-04-2023 14:35,Database,1 - Critical,2 - Department,Resolved,L2 Support,Rohan Verma,Mumbai,Procurement,Load Balancer,Printer offline,No,No,18,Network fault,38,Mar-23,Q1-2023
+PRB0000178,18-11-2023 13:12,,Hardware,3 - Medium,3 - Multiple Users,Open,L1 Support,Amit Desai,Kolkata,Sales,Email Gateway,VPN disconnecting,Yes,Yes,11,Vendor issue,,Nov-23,Q4-2023
+PRB0000179,26-06-2023 12:47,31-08-2023 12:47,Software,2 - High,3 - Multiple Users,Closed,Infra Team,Vikram Joshi,Kolkata,Sales,CRM Application,Database timeout,Yes,No,1,Software defect,66,Jun-23,Q2-2023
+PRB0000180,26-10-2023 12:15,05-11-2023 12:15,Database,2 - High,1 - Enterprise,Closed,L1 Support,Pooja Iyer,Bangalore,Legal,CRM Application,Application error,No,No,7,Network fault,10,Oct-23,Q4-2023
+PRB0000181,20-12-2023 15:29,,Database,2 - High,1 - Enterprise,Open,L1 Support,Vikram Joshi,Hyderabad,Legal,VPN Gateway,Email not working,Yes,No,2,Hardware failure,,Dec-23,Q4-2023
+PRB0000182,07-03-2023 23:35,23-03-2023 23:35,Software,2 - High,1 - Enterprise,Closed,DB Admins,Rahul Sharma,Delhi NCR,Procurement,Active Directory,Cannot login,No,Yes,18,Network fault,16,Mar-23,Q1-2023
+PRB0000183,23-09-2023 16:21,29-09-2023 16:21,Access Management,2 - High,3 - Multiple Users,Closed,L1 Support,Anjali Singh,Delhi NCR,HR,Email Gateway,Cannot login,No,No,19,Vendor issue,6,Sep-23,Q3-2023
+PRB0000184,15-02-2023 07:38,,Network,1 - Critical,4 - Individual,In Progress,L2 Support,Kavya Reddy,Chennai,Legal,Active Directory,Email not working,Yes,Yes,8,Human error,,Feb-23,Q1-2023
+PRB0000185,03-06-2023 20:40,31-07-2023 20:40,Software,3 - Medium,4 - Individual,Resolved,Network Ops,Vikram Joshi,Pune,Finance,ERP Server,Slow performance,No,Yes,19,Software defect,58,Jun-23,Q2-2023
+PRB0000186,24-03-2023 04:26,,Email/Collaboration,1 - Critical,2 - Department,In Progress,Security Ops,Priya Menon,Delhi NCR,Marketing,Oracle DB,Email not working,Yes,No,10,Network fault,,Mar-23,Q1-2023
+PRB0000187,04-09-2023 07:23,17-09-2023 07:23,Hardware,1 - Critical,2 - Department,Closed,L1 Support,Anjali Singh,Chennai,Procurement,Active Directory,Printer offline,No,Yes,13,Hardware failure,13,Sep-23,Q3-2023
+PRB0000188,20-07-2023 06:03,25-08-2023 06:03,Hardware,1 - Critical,2 - Department,Closed,App Support,Rahul Sharma,Pune,Legal,SAP Production,Database timeout,No,No,17,Hardware failure,36,Jul-23,Q3-2023
+PRB0000189,09-05-2023 13:55,,Software,1 - Critical,1 - Enterprise,Open,DB Admins,Kavya Reddy,Bangalore,Procurement,Load Balancer,Application error,Yes,Yes,6,Software defect,,May-23,Q2-2023
+PRB0000190,04-11-2023 04:38,09-11-2023 04:38,Software,2 - High,3 - Multiple Users,Closed,DB Admins,Rahul Sharma,Chennai,IT,Load Balancer,Cannot login,No,No,17,Configuration error,5,Nov-23,Q4-2023
+PRB0000191,26-11-2023 17:34,,Application,2 - High,4 - Individual,In Progress,App Support,Pooja Iyer,Hyderabad,Marketing,Email Gateway,Printer offline,Yes,No,24,Configuration error,,Nov-23,Q4-2023
+PRB0000192,14-01-2023 07:25,,Access Management,2 - High,4 - Individual,Open,App Support,Deepak Nair,Hyderabad,Sales,Email Gateway,Printer offline,Yes,No,18,Software defect,,Jan-23,Q1-2023
+PRB0000193,25-05-2023 19:44,,Application,1 - Critical,4 - Individual,In Progress,L2 Support,Vikram Joshi,Pune,Marketing,ERP Server,Printer offline,No,Yes,25,Vendor issue,,May-23,Q2-2023
+PRB0000194,27-10-2023 01:47,31-10-2023 01:47,Hardware,4 - Low,1 - Enterprise,Closed,L1 Support,Vikram Joshi,Hyderabad,Marketing,Load Balancer,System not responding,Yes,No,22,Vendor issue,4,Oct-23,Q4-2023
+PRB0000195,02-04-2023 21:13,11-04-2023 21:13,Software,3 - Medium,1 - Enterprise,Closed,L2 Support,Deepak Nair,Kolkata,IT,Oracle DB,Slow performance,No,No,25,Human error,9,Apr-23,Q2-2023
+PRB0000196,08-10-2023 10:23,,Network,3 - Medium,1 - Enterprise,In Progress,L1 Support,Pooja Iyer,Pune,IT,Firewall-01,System not responding,No,No,13,Software defect,,Oct-23,Q4-2023
+PRB0000197,08-08-2023 01:13,,Network,3 - Medium,2 - Department,In Progress,L1 Support,Anjali Singh,Delhi NCR,Marketing,ERP Server,Service unavailable,Yes,Yes,4,Vendor issue,,Aug-23,Q3-2023
+PRB0000198,08-08-2023 17:35,25-10-2023 17:35,Database,4 - Low,4 - Individual,Resolved,Network Ops,Vikram Joshi,Chennai,IT,CRM Application,Database timeout,Yes,Yes,19,Human error,78,Aug-23,Q3-2023
+PRB0000199,16-05-2023 08:31,,Network,1 - Critical,4 - Individual,Open,L2 Support,Anjali Singh,Hyderabad,IT,VPN Gateway,Application error,No,No,23,Vendor issue,,May-23,Q2-2023
+PRB0000200,03-04-2023 13:33,10-04-2023 13:33,Access Management,2 - High,3 - Multiple Users,Closed,DB Admins,Rohan Verma,Hyderabad,Procurement,SAP Production,System not responding,No,No,1,Configuration error,7,Apr-23,Q2-2023
+PRB0000201,05-08-2023 14:48,,Security,2 - High,4 - Individual,In Progress,DB Admins,Vikram Joshi,Delhi NCR,Legal,Firewall-01,Application error,No,Yes,25,Human error,,Aug-23,Q3-2023
+PRB0000202,30-01-2023 20:35,,Application,4 - Low,2 - Department,In Progress,L2 Support,Anjali Singh,Delhi NCR,HR,Active Directory,Slow performance,No,No,15,Human error,,Jan-23,Q1-2023
+PRB0000203,09-06-2023 09:46,18-06-2023 09:46,Hardware,3 - Medium,4 - Individual,Closed,DB Admins,Rohan Verma,Pune,Finance,Email Gateway,Network outage,No,No,20,Configuration error,9,Jun-23,Q2-2023
+PRB0000204,11-05-2023 10:44,04-07-2023 10:44,Access Management,2 - High,4 - Individual,Closed,L2 Support,Vikram Joshi,Delhi NCR,HR,Oracle DB,Email not working,Yes,Yes,18,Human error,54,May-23,Q2-2023
+PRB0000205,12-03-2023 20:52,20-03-2023 20:52,Hardware,1 - Critical,1 - Enterprise,Resolved,Security Ops,Deepak Nair,Delhi NCR,Marketing,Oracle DB,Database timeout,No,No,20,Software defect,8,Mar-23,Q1-2023
+PRB0000206,18-06-2023 22:53,10-07-2023 22:53,Software,4 - Low,2 - Department,Closed,Infra Team,Kavya Reddy,Delhi NCR,Sales,Core Switch,Service unavailable,Yes,Yes,24,Hardware failure,22,Jun-23,Q2-2023
+PRB0000207,08-06-2023 20:09,06-08-2023 20:09,Email/Collaboration,3 - Medium,3 - Multiple Users,Closed,Security Ops,Vikram Joshi,Pune,Legal,Core Switch,Network outage,Yes,Yes,25,Hardware failure,59,Jun-23,Q2-2023
+PRB0000208,07-12-2023 05:02,,Network,1 - Critical,4 - Individual,In Progress,L2 Support,Pooja Iyer,Pune,Marketing,Core Switch,VPN disconnecting,Yes,No,20,Vendor issue,,Dec-23,Q4-2023
+PRB0000209,12-01-2023 18:02,,Application,1 - Critical,3 - Multiple Users,In Progress,L2 Support,Rahul Sharma,Chennai,Procurement,CRM Application,Network outage,No,No,12,Human error,,Jan-23,Q1-2023
+PRB0000210,05-10-2023 02:37,,Hardware,2 - High,3 - Multiple Users,In Progress,Security Ops,Deepak Nair,Delhi NCR,HR,Active Directory,VPN disconnecting,Yes,No,3,Configuration error,,Oct-23,Q4-2023
+PRB0000211,04-12-2024 03:07,,Access Management,3 - Medium,1 - Enterprise,In Progress,DB Admins,Pooja Iyer,Hyderabad,Finance,Core Switch,Slow performance,Yes,Yes,7,Vendor issue,,Dec-24,Q4-2024
+PRB0000212,23-03-2024 23:44,18-05-2024 23:44,Software,3 - Medium,1 - Enterprise,Closed,DB Admins,Kavya Reddy,Hyderabad,IT,VPN Gateway,Email not working,No,No,13,Vendor issue,56,Mar-24,Q1-2024
+PRB0000213,08-02-2024 22:06,,Hardware,1 - Critical,1 - Enterprise,Open,DB Admins,Amit Desai,Bangalore,Finance,Firewall-01,Slow performance,Yes,No,7,Hardware failure,,Feb-24,Q1-2024
+PRB0000214,10-12-2024 18:33,17-12-2024 18:33,Email/Collaboration,3 - Medium,1 - Enterprise,Resolved,Network Ops,Priya Menon,Kolkata,Procurement,Oracle DB,Service unavailable,No,Yes,8,Configuration error,7,Dec-24,Q4-2024
+PRB0000215,19-09-2024 18:00,30-10-2024 18:00,Access Management,3 - Medium,4 - Individual,Resolved,App Support,Amit Desai,Kolkata,HR,VPN Gateway,Application error,No,Yes,12,Hardware failure,41,Sep-24,Q3-2024
+PRB0000216,23-12-2024 23:14,,Application,1 - Critical,1 - Enterprise,In Progress,Infra Team,Amit Desai,Hyderabad,Finance,VPN Gateway,Printer offline,No,No,6,Hardware failure,,Dec-24,Q4-2024
+PRB0000217,28-04-2024 05:22,,Hardware,4 - Low,1 - Enterprise,In Progress,Security Ops,Rahul Sharma,Kolkata,Operations,CRM Application,System not responding,No,Yes,22,Human error,,Apr-24,Q2-2024
+PRB0000218,17-08-2024 09:39,28-10-2024 09:39,Security,4 - Low,1 - Enterprise,Resolved,App Support,Anjali Singh,Kolkata,IT,CRM Application,Printer offline,Yes,No,15,Configuration error,72,Aug-24,Q3-2024
+PRB0000219,05-03-2024 02:00,,Software,3 - Medium,4 - Individual,Open,Security Ops,Vikram Joshi,Kolkata,Finance,Email Gateway,System not responding,Yes,No,3,Human error,,Mar-24,Q1-2024
+PRB0000220,29-12-2024 00:32,,Hardware,4 - Low,3 - Multiple Users,In Progress,App Support,Amit Desai,Pune,Procurement,Core Switch,Application error,Yes,No,18,Software defect,,Dec-24,Q4-2024
+PRB0000221,11-06-2024 16:19,,Application,2 - High,1 - Enterprise,In Progress,DB Admins,Rahul Sharma,Chennai,HR,Core Switch,Cannot login,Yes,No,17,Configuration error,,Jun-24,Q2-2024
+PRB0000222,15-08-2024 19:43,22-10-2024 19:43,Hardware,3 - Medium,4 - Individual,Resolved,L2 Support,Deepak Nair,Kolkata,HR,CRM Application,System not responding,Yes,No,3,Capacity issue,68,Aug-24,Q3-2024
+PRB0000223,01-07-2024 20:15,,Database,2 - High,2 - Department,In Progress,Network Ops,Rohan Verma,Delhi NCR,Marketing,Oracle DB,VPN disconnecting,Yes,Yes,24,Software defect,,Jul-24,Q3-2024
+PRB0000224,12-08-2024 15:26,,Network,4 - Low,4 - Individual,In Progress,Infra Team,Pooja Iyer,Hyderabad,Marketing,Firewall-01,VPN disconnecting,Yes,No,22,Configuration error,,Aug-24,Q3-2024
+PRB0000225,02-06-2024 09:46,18-08-2024 09:46,Software,2 - High,4 - Individual,Resolved,L1 Support,Rohan Verma,Hyderabad,Finance,Load Balancer,Service unavailable,Yes,Yes,10,Network fault,77,Jun-24,Q2-2024
+PRB0000226,15-09-2024 06:26,13-11-2024 06:26,Email/Collaboration,1 - Critical,2 - Department,Resolved,Network Ops,Pooja Iyer,Kolkata,Operations,Active Directory,Application error,Yes,Yes,16,Configuration error,59,Sep-24,Q3-2024
+PRB0000227,21-08-2024 10:00,,Email/Collaboration,2 - High,1 - Enterprise,Open,L1 Support,Rohan Verma,Chennai,Sales,SAP Production,Printer offline,Yes,No,5,Configuration error,,Aug-24,Q3-2024
+PRB0000228,10-07-2024 00:38,07-10-2024 00:38,Email/Collaboration,3 - Medium,1 - Enterprise,Resolved,App Support,Pooja Iyer,Hyderabad,Operations,Oracle DB,Database timeout,Yes,Yes,1,Network fault,89,Jul-24,Q3-2024
+PRB0000229,03-09-2024 17:47,,Email/Collaboration,3 - Medium,2 - Department,In Progress,L2 Support,Pooja Iyer,Bangalore,Legal,VPN Gateway,Slow performance,No,No,8,Configuration error,,Sep-24,Q3-2024
+PRB0000230,13-09-2024 08:20,13-10-2024 08:20,Hardware,3 - Medium,2 - Department,Resolved,DB Admins,Anjali Singh,Hyderabad,Sales,SAP Production,Network outage,Yes,Yes,10,Network fault,30,Sep-24,Q3-2024
+PRB0000231,05-02-2024 12:13,,Access Management,2 - High,1 - Enterprise,Open,Network Ops,Rohan Verma,Hyderabad,Sales,Load Balancer,Cannot login,Yes,Yes,23,Human error,,Feb-24,Q1-2024
+PRB0000232,03-10-2024 08:40,,Application,4 - Low,2 - Department,In Progress,DB Admins,Vikram Joshi,Kolkata,Finance,Oracle DB,Printer offline,No,Yes,9,Capacity issue,,Oct-24,Q4-2024
+PRB0000233,01-10-2024 06:43,,Email/Collaboration,4 - Low,2 - Department,In Progress,L2 Support,Kavya Reddy,Bangalore,Marketing,Email Gateway,Database timeout,Yes,No,10,Network fault,,Oct-24,Q4-2024
+PRB0000234,30-11-2024 10:38,10-12-2024 10:38,Database,2 - High,4 - Individual,Closed,L1 Support,Rohan Verma,Kolkata,Operations,Load Balancer,Email not working,Yes,Yes,7,Software defect,10,Nov-24,Q4-2024
+PRB0000235,25-12-2024 19:57,,Security,1 - Critical,2 - Department,In Progress,DB Admins,Vikram Joshi,Chennai,IT,ERP Server,Cannot login,No,No,4,Human error,,Dec-24,Q4-2024
+PRB0000236,09-11-2024 09:39,17-11-2024 09:39,Network,1 - Critical,3 - Multiple Users,Closed,L2 Support,Priya Menon,Kolkata,Legal,CRM Application,Cannot login,Yes,No,15,Human error,8,Nov-24,Q4-2024
+PRB0000237,05-02-2024 18:26,,Access Management,2 - High,4 - Individual,Open,L2 Support,Priya Menon,Hyderabad,HR,Firewall-01,Email not working,No,Yes,13,Capacity issue,,Feb-24,Q1-2024
+PRB0000238,07-01-2024 05:10,31-01-2024 05:10,Security,4 - Low,3 - Multiple Users,Closed,Infra Team,Deepak Nair,Chennai,Legal,CRM Application,Application error,No,Yes,21,Network fault,24,Jan-24,Q1-2024
+PRB0000239,14-02-2024 13:11,,Access Management,2 - High,2 - Department,Open,DB Admins,Deepak Nair,Pune,IT,Oracle DB,VPN disconnecting,Yes,Yes,10,Capacity issue,,Feb-24,Q1-2024
+PRB0000240,18-03-2024 02:41,,Network,3 - Medium,4 - Individual,In Progress,Security Ops,Rahul Sharma,Kolkata,Procurement,Oracle DB,System not responding,No,Yes,9,Hardware failure,,Mar-24,Q1-2024
+PRB0000241,20-01-2024 17:29,17-04-2024 17:29,Email/Collaboration,1 - Critical,2 - Department,Resolved,Infra Team,Pooja Iyer,Chennai,Marketing,Core Switch,System not responding,Yes,Yes,17,Vendor issue,88,Jan-24,Q1-2024
+PRB0000242,07-11-2024 02:59,27-11-2024 02:59,Email/Collaboration,2 - High,1 - Enterprise,Resolved,Network Ops,Anjali Singh,Mumbai,Legal,ERP Server,Cannot login,Yes,Yes,24,Human error,20,Nov-24,Q4-2024
+PRB0000243,12-07-2024 02:36,,Access Management,2 - High,4 - Individual,Open,Security Ops,Priya Menon,Kolkata,Sales,SAP Production,Service unavailable,No,Yes,9,Human error,,Jul-24,Q3-2024
+PRB0000244,28-01-2024 16:45,,Hardware,3 - Medium,3 - Multiple Users,In Progress,L1 Support,Amit Desai,Hyderabad,Marketing,ERP Server,Cannot login,Yes,No,10,Vendor issue,,Jan-24,Q1-2024
+PRB0000245,02-08-2024 07:33,,Access Management,2 - High,1 - Enterprise,Open,Infra Team,Deepak Nair,Mumbai,Legal,Email Gateway,Service unavailable,Yes,No,9,Vendor issue,,Aug-24,Q3-2024
+PRB0000246,25-06-2024 13:12,24-07-2024 13:12,Security,4 - Low,1 - Enterprise,Resolved,L2 Support,Anjali Singh,Mumbai,Procurement,Email Gateway,Cannot login,No,Yes,5,Configuration error,29,Jun-24,Q2-2024
+PRB0000247,13-12-2024 23:13,,Access Management,4 - Low,3 - Multiple Users,Open,DB Admins,Vikram Joshi,Chennai,IT,Active Directory,Application error,No,Yes,20,Software defect,,Dec-24,Q4-2024
+PRB0000248,03-11-2024 14:10,,Application,4 - Low,3 - Multiple Users,Open,L2 Support,Sneha Patil,Bangalore,Sales,SAP Production,Database timeout,Yes,No,1,Human error,,Nov-24,Q4-2024
+PRB0000249,09-04-2024 01:26,05-05-2024 01:26,Network,2 - High,2 - Department,Resolved,L1 Support,Rohan Verma,Pune,Sales,Email Gateway,Printer offline,Yes,Yes,20,Hardware failure,26,Apr-24,Q2-2024
+PRB0000250,24-07-2024 04:09,,Database,1 - Critical,1 - Enterprise,In Progress,L2 Support,Anjali Singh,Bangalore,Legal,Oracle DB,Slow performance,Yes,Yes,24,Software defect,,Jul-24,Q3-2024
+PRB0000251,21-02-2024 07:52,,Email/Collaboration,3 - Medium,4 - Individual,Open,Network Ops,Rohan Verma,Chennai,Sales,Oracle DB,Cannot login,No,No,2,Human error,,Feb-24,Q1-2024
+PRB0000252,23-12-2024 18:45,,Email/Collaboration,3 - Medium,3 - Multiple Users,In Progress,L1 Support,Priya Menon,Bangalore,Marketing,Active Directory,Database timeout,Yes,Yes,13,Configuration error,,Dec-24,Q4-2024
+PRB0000253,05-08-2024 06:36,15-09-2024 06:36,Email/Collaboration,2 - High,1 - Enterprise,Closed,Network Ops,Anjali Singh,Chennai,Sales,Oracle DB,Application error,No,Yes,5,Hardware failure,41,Aug-24,Q3-2024
+PRB0000254,29-11-2024 17:56,21-12-2024 17:56,Access Management,4 - Low,4 - Individual,Closed,App Support,Sneha Patil,Delhi NCR,Sales,ERP Server,Database timeout,No,Yes,16,Configuration error,22,Nov-24,Q4-2024
+PRB0000255,09-08-2024 05:15,18-09-2024 05:15,Hardware,3 - Medium,1 - Enterprise,Closed,Infra Team,Priya Menon,Kolkata,Marketing,Oracle DB,Printer offline,No,Yes,5,Configuration error,40,Aug-24,Q3-2024
+PRB0000256,06-03-2024 21:23,20-03-2024 21:23,Hardware,1 - Critical,3 - Multiple Users,Resolved,Security Ops,Kavya Reddy,Chennai,Legal,Oracle DB,Cannot login,Yes,Yes,10,Vendor issue,14,Mar-24,Q1-2024
+PRB0000257,07-07-2024 04:03,19-09-2024 04:03,Security,4 - Low,2 - Department,Resolved,L2 Support,Priya Menon,Bangalore,Sales,CRM Application,Slow performance,Yes,No,9,Network fault,74,Jul-24,Q3-2024
+PRB0000258,04-01-2024 03:23,,Application,4 - Low,1 - Enterprise,In Progress,L2 Support,Anjali Singh,Bangalore,Marketing,Core Switch,VPN disconnecting,No,No,6,Vendor issue,,Jan-24,Q1-2024
+PRB0000259,20-04-2024 07:14,25-06-2024 07:14,Access Management,2 - High,3 - Multiple Users,Resolved,App Support,Kavya Reddy,Hyderabad,Operations,ERP Server,Printer offline,Yes,No,23,Human error,66,Apr-24,Q2-2024
+PRB0000260,14-10-2024 20:50,,Access Management,4 - Low,3 - Multiple Users,In Progress,Network Ops,Rahul Sharma,Bangalore,Sales,Load Balancer,VPN disconnecting,No,Yes,20,Network fault,,Oct-24,Q4-2024
+PRB0000261,14-12-2024 13:59,21-12-2024 13:59,Software,3 - Medium,2 - Department,Closed,L2 Support,Vikram Joshi,Kolkata,IT,SAP Production,Application error,No,Yes,2,Software defect,7,Dec-24,Q4-2024
+PRB0000262,07-03-2024 18:03,,Application,4 - Low,2 - Department,Open,Security Ops,Vikram Joshi,Kolkata,Finance,Email Gateway,Email not working,No,Yes,22,Vendor issue,,Mar-24,Q1-2024
+PRB0000263,22-01-2024 06:33,18-04-2024 06:33,Security,4 - Low,4 - Individual,Resolved,Network Ops,Amit Desai,Delhi NCR,Finance,CRM Application,Database timeout,Yes,Yes,5,Vendor issue,87,Jan-24,Q1-2024
+PRB0000264,31-05-2024 09:17,12-08-2024 09:17,Network,1 - Critical,4 - Individual,Closed,DB Admins,Rahul Sharma,Kolkata,Marketing,Core Switch,Printer offline,Yes,No,3,Network fault,73,May-24,Q2-2024
+PRB0000265,09-07-2024 09:38,25-07-2024 09:38,Hardware,3 - Medium,2 - Department,Resolved,DB Admins,Anjali Singh,Bangalore,Sales,SAP Production,Cannot login,No,No,5,Human error,16,Jul-24,Q3-2024
+PRB0000266,12-06-2024 10:40,,Network,3 - Medium,1 - Enterprise,Open,Network Ops,Vikram Joshi,Delhi NCR,Procurement,VPN Gateway,Email not working,No,Yes,2,Configuration error,,Jun-24,Q2-2024
+PRB0000267,08-04-2024 03:35,,Hardware,1 - Critical,4 - Individual,Open,DB Admins,Rahul Sharma,Pune,Sales,Firewall-01,Cannot login,No,No,10,Software defect,,Apr-24,Q2-2024
+PRB0000268,08-05-2024 05:22,,Software,2 - High,1 - Enterprise,In Progress,App Support,Rahul Sharma,Chennai,IT,Active Directory,VPN disconnecting,Yes,No,1,Vendor issue,,May-24,Q2-2024
+PRB0000269,31-12-2024 09:22,10-01-2025 09:22,Software,1 - Critical,3 - Multiple Users,Closed,Infra Team,Amit Desai,Mumbai,HR,Oracle DB,Network outage,No,No,13,Vendor issue,10,Dec-24,Q4-2024
+PRB0000270,25-10-2024 17:44,31-10-2024 17:44,Security,2 - High,2 - Department,Resolved,L2 Support,Rahul Sharma,Kolkata,Marketing,Email Gateway,Slow performance,Yes,Yes,4,Configuration error,6,Oct-24,Q4-2024
+PRB0000271,04-05-2024 15:49,,Application,3 - Medium,2 - Department,In Progress,L2 Support,Priya Menon,Mumbai,Marketing,CRM Application,Network outage,Yes,Yes,5,Software defect,,May-24,Q2-2024
+PRB0000272,13-02-2024 13:59,17-04-2024 13:59,Email/Collaboration,4 - Low,2 - Department,Closed,Network Ops,Anjali Singh,Chennai,HR,Email Gateway,System not responding,No,Yes,24,Human error,64,Feb-24,Q1-2024
+PRB0000273,10-09-2024 20:33,,Software,1 - Critical,4 - Individual,In Progress,App Support,Kavya Reddy,Bangalore,Sales,VPN Gateway,System not responding,No,No,8,Hardware failure,,Sep-24,Q3-2024
+PRB0000274,09-07-2024 17:07,27-08-2024 17:07,Security,2 - High,2 - Department,Resolved,Network Ops,Priya Menon,Mumbai,Legal,Firewall-01,VPN disconnecting,Yes,Yes,10,Configuration error,49,Jul-24,Q3-2024
+PRB0000275,28-03-2024 02:55,,Database,3 - Medium,1 - Enterprise,Open,Network Ops,Kavya Reddy,Pune,HR,Active Directory,Printer offline,No,No,22,Hardware failure,,Mar-24,Q1-2024
+PRB0000276,21-10-2024 18:40,,Security,1 - Critical,1 - Enterprise,Open,DB Admins,Vikram Joshi,Delhi NCR,Marketing,ERP Server,Printer offline,No,Yes,2,Network fault,,Oct-24,Q4-2024
+PRB0000277,25-02-2024 17:02,21-05-2024 17:02,Hardware,1 - Critical,1 - Enterprise,Closed,Infra Team,Deepak Nair,Bangalore,IT,Load Balancer,Database timeout,Yes,Yes,9,Human error,86,Feb-24,Q1-2024
+PRB0000278,17-03-2024 00:43,,Software,2 - High,4 - Individual,In Progress,DB Admins,Pooja Iyer,Mumbai,Procurement,Email Gateway,Network outage,Yes,Yes,23,Network fault,,Mar-24,Q1-2024
+PRB0000279,12-02-2024 09:04,01-05-2024 09:04,Hardware,1 - Critical,4 - Individual,Resolved,Network Ops,Anjali Singh,Mumbai,Marketing,Active Directory,Cannot login,Yes,No,11,Configuration error,79,Feb-24,Q1-2024
+PRB0000280,27-05-2024 20:52,02-06-2024 20:52,Database,1 - Critical,3 - Multiple Users,Closed,Security Ops,Vikram Joshi,Kolkata,Marketing,Load Balancer,Database timeout,Yes,No,3,Configuration error,6,May-24,Q2-2024
+PRB0000281,22-09-2024 16:13,,Software,2 - High,2 - Department,In Progress,Network Ops,Rohan Verma,Chennai,Operations,Active Directory,Slow performance,Yes,No,19,Vendor issue,,Sep-24,Q3-2024
+PRB0000282,27-03-2024 16:08,,Email/Collaboration,4 - Low,3 - Multiple Users,In Progress,Infra Team,Deepak Nair,Delhi NCR,IT,Core Switch,Cannot login,Yes,No,2,Configuration error,,Mar-24,Q1-2024
+PRB0000283,30-05-2024 02:56,,Security,2 - High,3 - Multiple Users,Open,Network Ops,Amit Desai,Chennai,IT,Active Directory,VPN disconnecting,Yes,Yes,15,Vendor issue,,May-24,Q2-2024
+PRB0000284,03-04-2024 01:59,26-06-2024 01:59,Network,3 - Medium,4 - Individual,Resolved,Infra Team,Rohan Verma,Delhi NCR,HR,CRM Application,Printer offline,Yes,Yes,2,Network fault,84,Apr-24,Q2-2024
+PRB0000285,17-09-2024 14:49,18-11-2024 14:49,Software,3 - Medium,1 - Enterprise,Resolved,L1 Support,Pooja Iyer,Chennai,Finance,Active Directory,Database timeout,Yes,Yes,10,Human error,62,Sep-24,Q3-2024
+PRB0000286,31-10-2024 16:51,25-11-2024 16:51,Network,4 - Low,4 - Individual,Resolved,Infra Team,Deepak Nair,Chennai,IT,Load Balancer,Slow performance,Yes,Yes,18,Hardware failure,25,Oct-24,Q4-2024
+PRB0000287,17-05-2024 18:43,03-07-2024 18:43,Email/Collaboration,1 - Critical,1 - Enterprise,Closed,L2 Support,Rahul Sharma,Bangalore,Legal,ERP Server,Cannot login,Yes,Yes,17,Vendor issue,47,May-24,Q2-2024
+PRB0000288,11-06-2024 10:06,17-08-2024 10:06,Security,3 - Medium,1 - Enterprise,Resolved,App Support,Kavya Reddy,Delhi NCR,Operations,Email Gateway,Network outage,Yes,No,7,Configuration error,67,Jun-24,Q2-2024
+PRB0000289,14-03-2024 14:55,19-03-2024 14:55,Software,1 - Critical,2 - Department,Resolved,L2 Support,Anjali Singh,Bangalore,Marketing,ERP Server,Cannot login,No,Yes,15,Capacity issue,5,Mar-24,Q1-2024
+PRB0000290,07-05-2024 08:47,,Hardware,3 - Medium,4 - Individual,Open,L1 Support,Sneha Patil,Bangalore,IT,Load Balancer,Application error,Yes,Yes,1,Configuration error,,May-24,Q2-2024
+PRB0000291,28-03-2024 13:10,,Access Management,2 - High,4 - Individual,Open,DB Admins,Sneha Patil,Bangalore,HR,Oracle DB,Cannot login,Yes,Yes,6,Software defect,,Mar-24,Q1-2024
+PRB0000292,08-07-2024 23:25,,Network,3 - Medium,2 - Department,Open,L1 Support,Sneha Patil,Mumbai,Finance,Firewall-01,Email not working,Yes,No,1,Capacity issue,,Jul-24,Q3-2024
+PRB0000293,25-11-2024 22:10,28-11-2024 22:10,Access Management,3 - Medium,2 - Department,Closed,DB Admins,Amit Desai,Kolkata,Finance,Firewall-01,Network outage,No,Yes,6,Hardware failure,3,Nov-24,Q4-2024
+PRB0000294,02-12-2024 16:40,12-12-2024 16:40,Email/Collaboration,4 - Low,4 - Individual,Resolved,DB Admins,Priya Menon,Delhi NCR,IT,Core Switch,Service unavailable,No,No,20,Software defect,10,Dec-24,Q4-2024
+PRB0000295,21-05-2024 00:10,,Application,4 - Low,1 - Enterprise,Open,Network Ops,Pooja Iyer,Kolkata,IT,ERP Server,Printer offline,No,Yes,22,Capacity issue,,May-24,Q2-2024
+PRB0000296,04-11-2024 12:12,,Security,1 - Critical,1 - Enterprise,Open,L1 Support,Amit Desai,Mumbai,Operations,VPN Gateway,Email not working,No,Yes,20,Configuration error,,Nov-24,Q4-2024
+PRB0000297,08-10-2024 15:49,,Security,4 - Low,3 - Multiple Users,Open,L1 Support,Pooja Iyer,Delhi NCR,Sales,ERP Server,Cannot login,No,Yes,16,Configuration error,,Oct-24,Q4-2024
+PRB0000298,09-02-2024 18:53,,Database,2 - High,2 - Department,Open,App Support,Rohan Verma,Mumbai,Legal,Core Switch,Application error,Yes,Yes,20,Network fault,,Feb-24,Q1-2024
+PRB0000299,21-08-2024 13:41,,Hardware,4 - Low,3 - Multiple Users,In Progress,L2 Support,Rohan Verma,Mumbai,Sales,Email Gateway,Network outage,Yes,Yes,22,Software defect,,Aug-24,Q3-2024
+PRB0000300,10-11-2024 01:05,20-11-2024 01:05,Access Management,3 - Medium,2 - Department,Closed,L2 Support,Kavya Reddy,Kolkata,Operations,SAP Production,Slow performance,Yes,No,5,Capacity issue,10,Nov-24,Q4-2024
+PRB0000301,25-11-2024 11:23,,Hardware,3 - Medium,4 - Individual,Open,L1 Support,Sneha Patil,Delhi NCR,Finance,SAP Production,Printer offline,No,Yes,16,Human error,,Nov-24,Q4-2024
+PRB0000302,17-02-2024 04:21,24-02-2024 04:21,Network,2 - High,4 - Individual,Closed,Network Ops,Sneha Patil,Bangalore,Operations,Load Balancer,Application error,Yes,Yes,1,Human error,7,Feb-24,Q1-2024
+PRB0000303,13-10-2024 14:01,28-10-2024 14:01,Application,2 - High,1 - Enterprise,Resolved,Network Ops,Pooja Iyer,Kolkata,Operations,ERP Server,Cannot login,No,No,11,Software defect,15,Oct-24,Q4-2024
+PRB0000304,26-09-2024 17:58,10-11-2024 17:58,Application,4 - Low,3 - Multiple Users,Closed,Infra Team,Rahul Sharma,Mumbai,Operations,ERP Server,Network outage,Yes,No,12,Software defect,45,Sep-24,Q3-2024
+PRB0000305,07-05-2024 18:58,04-08-2024 18:58,Application,3 - Medium,4 - Individual,Resolved,Network Ops,Anjali Singh,Mumbai,Operations,SAP Production,Network outage,No,No,19,Software defect,89,May-24,Q2-2024
+PRB0000306,09-02-2024 16:39,,Database,1 - Critical,4 - Individual,In Progress,DB Admins,Vikram Joshi,Mumbai,IT,VPN Gateway,Slow performance,No,No,14,Software defect,,Feb-24,Q1-2024
+PRB0000307,30-07-2024 06:08,15-08-2024 06:08,Application,4 - Low,4 - Individual,Resolved,App Support,Sneha Patil,Chennai,Procurement,SAP Production,Printer offline,No,No,17,Human error,16,Jul-24,Q3-2024
+PRB0000308,08-06-2024 04:02,,Network,3 - Medium,3 - Multiple Users,In Progress,Network Ops,Priya Menon,Delhi NCR,IT,ERP Server,Service unavailable,No,No,21,Software defect,,Jun-24,Q2-2024
+PRB0000309,18-06-2024 05:11,26-07-2024 05:11,Hardware,2 - High,3 - Multiple Users,Closed,Infra Team,Deepak Nair,Bangalore,HR,Active Directory,Email not working,Yes,No,3,Human error,38,Jun-24,Q2-2024
+PRB0000310,15-03-2024 16:19,19-05-2024 16:19,Email/Collaboration,1 - Critical,4 - Individual,Closed,L1 Support,Vikram Joshi,Kolkata,Legal,SAP Production,Network outage,Yes,Yes,19,Human error,65,Mar-24,Q1-2024
+PRB0000311,25-11-2024 10:41,,Application,2 - High,2 - Department,In Progress,Security Ops,Sneha Patil,Bangalore,Procurement,ERP Server,Cannot login,Yes,Yes,10,Configuration error,,Nov-24,Q4-2024
+PRB0000312,17-05-2024 12:02,02-08-2024 12:02,Application,4 - Low,1 - Enterprise,Closed,Network Ops,Rahul Sharma,Chennai,Legal,ERP Server,Email not working,No,No,15,Configuration error,77,May-24,Q2-2024
+PRB0000313,10-02-2024 21:58,,Hardware,3 - Medium,3 - Multiple Users,Open,Infra Team,Priya Menon,Hyderabad,Finance,Load Balancer,Email not working,Yes,No,20,Software defect,,Feb-24,Q1-2024
+PRB0000314,28-07-2024 09:45,,Security,2 - High,3 - Multiple Users,In Progress,DB Admins,Rohan Verma,Pune,HR,Email Gateway,System not responding,Yes,Yes,12,Network fault,,Jul-24,Q3-2024
+PRB0000315,02-06-2024 19:09,23-08-2024 19:09,Software,2 - High,4 - Individual,Resolved,App Support,Deepak Nair,Pune,HR,Firewall-01,Database timeout,No,No,19,Configuration error,82,Jun-24,Q2-2024
+PRB0000316,18-12-2024 06:46,24-12-2024 06:46,Email/Collaboration,3 - Medium,4 - Individual,Closed,DB Admins,Rohan Verma,Pune,Legal,SAP Production,Cannot login,Yes,Yes,4,Software defect,6,Dec-24,Q4-2024
+PRB0000317,27-03-2024 08:15,30-04-2024 08:15,Software,1 - Critical,2 - Department,Resolved,L1 Support,Amit Desai,Bangalore,Operations,VPN Gateway,Slow performance,No,Yes,19,Hardware failure,34,Mar-24,Q1-2024
+PRB0000318,04-10-2024 17:02,20-12-2024 17:02,Email/Collaboration,4 - Low,1 - Enterprise,Closed,Security Ops,Anjali Singh,Bangalore,Procurement,Oracle DB,VPN disconnecting,No,Yes,9,Network fault,77,Oct-24,Q4-2024
+PRB0000319,02-01-2024 22:59,10-03-2024 22:59,Application,1 - Critical,3 - Multiple Users,Closed,App Support,Anjali Singh,Chennai,Marketing,Email Gateway,Application error,Yes,No,3,Capacity issue,68,Jan-24,Q1-2024
+PRB0000320,01-08-2024 03:42,24-08-2024 03:42,Application,1 - Critical,3 - Multiple Users,Closed,Infra Team,Deepak Nair,Hyderabad,HR,Email Gateway,Service unavailable,No,Yes,19,Network fault,23,Aug-24,Q3-2024
+PRB0000321,11-09-2024 12:22,06-11-2024 12:22,Network,3 - Medium,4 - Individual,Resolved,L1 Support,Kavya Reddy,Kolkata,Sales,Firewall-01,Database timeout,No,Yes,8,Vendor issue,56,Sep-24,Q3-2024
+PRB0000322,08-02-2024 23:26,,Application,2 - High,4 - Individual,In Progress,L2 Support,Pooja Iyer,Mumbai,IT,Load Balancer,Database timeout,No,No,24,Hardware failure,,Feb-24,Q1-2024
+PRB0000323,09-03-2024 08:38,,Network,4 - Low,3 - Multiple Users,In Progress,L2 Support,Anjali Singh,Kolkata,Sales,ERP Server,VPN disconnecting,No,No,17,Human error,,Mar-24,Q1-2024
+PRB0000324,18-02-2024 10:53,17-05-2024 10:53,Access Management,1 - Critical,1 - Enterprise,Closed,DB Admins,Anjali Singh,Pune,Operations,ERP Server,Cannot login,No,Yes,20,Network fault,89,Feb-24,Q1-2024
+PRB0000325,17-05-2024 11:06,26-07-2024 11:06,Email/Collaboration,4 - Low,1 - Enterprise,Closed,Infra Team,Anjali Singh,Pune,IT,Load Balancer,Slow performance,Yes,No,10,Human error,70,May-24,Q2-2024
+PRB0000326,06-12-2024 07:51,16-12-2024 07:51,Network,4 - Low,4 - Individual,Resolved,Security Ops,Deepak Nair,Bangalore,Sales,SAP Production,Service unavailable,No,Yes,9,Network fault,10,Dec-24,Q4-2024
+PRB0000327,27-05-2024 18:48,08-08-2024 18:48,Email/Collaboration,4 - Low,3 - Multiple Users,Resolved,Infra Team,Amit Desai,Chennai,Finance,ERP Server,Printer offline,Yes,Yes,10,Software defect,73,May-24,Q2-2024
+PRB0000328,16-01-2024 08:35,12-04-2024 08:35,Database,1 - Critical,2 - Department,Resolved,Network Ops,Rohan Verma,Pune,Marketing,Active Directory,Application error,No,Yes,6,Vendor issue,87,Jan-24,Q1-2024
+PRB0000329,29-10-2024 14:08,05-12-2024 14:08,Application,4 - Low,3 - Multiple Users,Resolved,App Support,Priya Menon,Hyderabad,Legal,Firewall-01,Cannot login,No,Yes,8,Software defect,37,Oct-24,Q4-2024
+PRB0000330,18-11-2024 00:26,,Hardware,1 - Critical,4 - Individual,In Progress,Security Ops,Rahul Sharma,Delhi NCR,Finance,CRM Application,Printer offline,Yes,No,10,Human error,,Nov-24,Q4-2024
+PRB0000331,28-04-2025 00:57,14-05-2025 00:57,Application,1 - Critical,3 - Multiple Users,Closed,Infra Team,Priya Menon,Pune,Finance,Firewall-01,Application error,No,No,17,Configuration error,16,Apr-25,Q2-2025
+PRB0000332,02-06-2025 00:05,,Network,2 - High,2 - Department,In Progress,App Support,Pooja Iyer,Hyderabad,HR,Oracle DB,Cannot login,No,Yes,25,Vendor issue,,Jun-25,Q2-2025
+PRB0000333,29-12-2025 15:56,08-01-2026 15:56,Email/Collaboration,4 - Low,4 - Individual,Resolved,DB Admins,Anjali Singh,Pune,IT,Load Balancer,Slow performance,No,Yes,5,Configuration error,10,Dec-25,Q4-2025
+PRB0000334,20-03-2025 09:59,,Application,3 - Medium,1 - Enterprise,In Progress,DB Admins,Deepak Nair,Kolkata,Operations,Oracle DB,Cannot login,No,No,5,Capacity issue,,Mar-25,Q1-2025
+PRB0000335,30-10-2025 09:23,,Application,4 - Low,3 - Multiple Users,In Progress,L1 Support,Priya Menon,Bangalore,Legal,VPN Gateway,Slow performance,No,Yes,17,Hardware failure,,Oct-25,Q4-2025
+PRB0000336,16-03-2025 22:29,10-05-2025 22:29,Software,1 - Critical,2 - Department,Closed,Security Ops,Deepak Nair,Kolkata,Operations,ERP Server,Network outage,Yes,No,4,Human error,55,Mar-25,Q1-2025
+PRB0000337,22-06-2025 08:24,04-09-2025 08:24,Database,4 - Low,2 - Department,Closed,Infra Team,Priya Menon,Hyderabad,Marketing,CRM Application,Slow performance,Yes,Yes,6,Software defect,74,Jun-25,Q2-2025
+PRB0000338,11-05-2025 17:59,02-07-2025 17:59,Email/Collaboration,3 - Medium,3 - Multiple Users,Resolved,L1 Support,Vikram Joshi,Mumbai,HR,Load Balancer,System not responding,Yes,No,11,Vendor issue,52,May-25,Q2-2025
+PRB0000339,25-08-2025 12:16,20-10-2025 12:16,Software,2 - High,4 - Individual,Resolved,L2 Support,Pooja Iyer,Pune,Finance,Firewall-01,Slow performance,Yes,No,7,Capacity issue,56,Aug-25,Q3-2025
+PRB0000340,13-05-2025 00:37,,Network,4 - Low,2 - Department,Open,Infra Team,Vikram Joshi,Hyderabad,Procurement,CRM Application,Service unavailable,No,Yes,22,Network fault,,May-25,Q2-2025
+PRB0000341,30-05-2025 21:07,,Access Management,4 - Low,4 - Individual,In Progress,App Support,Priya Menon,Mumbai,Operations,Firewall-01,Network outage,No,Yes,10,Configuration error,,May-25,Q2-2025
+PRB0000342,21-11-2025 03:14,,Application,2 - High,1 - Enterprise,In Progress,Network Ops,Deepak Nair,Mumbai,HR,ERP Server,Slow performance,Yes,No,22,Network fault,,Nov-25,Q4-2025
+PRB0000343,25-01-2025 16:32,,Security,1 - Critical,1 - Enterprise,Open,Infra Team,Pooja Iyer,Kolkata,Marketing,Active Directory,Printer offline,Yes,Yes,16,Configuration error,,Jan-25,Q1-2025
+PRB0000344,09-05-2025 02:43,,Access Management,4 - Low,4 - Individual,In Progress,Network Ops,Sneha Patil,Chennai,IT,Firewall-01,Database timeout,No,Yes,14,Network fault,,May-25,Q2-2025
+PRB0000345,14-06-2025 22:37,,Hardware,3 - Medium,1 - Enterprise,In Progress,L1 Support,Vikram Joshi,Delhi NCR,Finance,Core Switch,Printer offline,No,No,10,Vendor issue,,Jun-25,Q2-2025
+PRB0000346,19-06-2025 03:27,08-08-2025 03:27,Security,2 - High,2 - Department,Resolved,Network Ops,Sneha Patil,Kolkata,Sales,VPN Gateway,Email not working,Yes,Yes,19,Network fault,50,Jun-25,Q2-2025
+PRB0000347,09-02-2025 11:29,06-05-2025 11:29,Database,1 - Critical,4 - Individual,Resolved,DB Admins,Rahul Sharma,Delhi NCR,Sales,Oracle DB,Slow performance,No,Yes,8,Human error,86,Feb-25,Q1-2025
+PRB0000348,17-08-2025 21:59,08-09-2025 21:59,Network,1 - Critical,3 - Multiple Users,Resolved,Infra Team,Vikram Joshi,Mumbai,Sales,CRM Application,VPN disconnecting,Yes,Yes,13,Hardware failure,22,Aug-25,Q3-2025
+PRB0000349,03-05-2025 15:08,22-07-2025 15:08,Email/Collaboration,3 - Medium,1 - Enterprise,Closed,DB Admins,Kavya Reddy,Chennai,IT,CRM Application,Network outage,Yes,Yes,2,Network fault,80,May-25,Q2-2025
+PRB0000350,07-05-2025 10:23,,Network,3 - Medium,3 - Multiple Users,Open,Infra Team,Rohan Verma,Kolkata,Legal,Core Switch,Database timeout,Yes,Yes,6,Software defect,,May-25,Q2-2025
+PRB0000351,23-03-2025 09:23,10-05-2025 09:23,Network,3 - Medium,4 - Individual,Closed,App Support,Kavya Reddy,Chennai,Procurement,Email Gateway,VPN disconnecting,Yes,No,1,Network fault,48,Mar-25,Q1-2025
+PRB0000352,27-10-2025 08:55,04-11-2025 08:55,Security,2 - High,1 - Enterprise,Resolved,App Support,Anjali Singh,Delhi NCR,IT,Oracle DB,Database timeout,No,Yes,6,Vendor issue,8,Oct-25,Q4-2025
+PRB0000353,24-12-2025 12:19,,Database,3 - Medium,4 - Individual,In Progress,Infra Team,Deepak Nair,Pune,Procurement,CRM Application,Printer offline,No,No,19,Capacity issue,,Dec-25,Q4-2025
+PRB0000354,20-07-2025 00:27,03-10-2025 00:27,Database,4 - Low,4 - Individual,Resolved,DB Admins,Priya Menon,Kolkata,Marketing,ERP Server,Network outage,Yes,Yes,14,Capacity issue,75,Jul-25,Q3-2025
+PRB0000355,21-05-2025 06:21,31-05-2025 06:21,Access Management,2 - High,3 - Multiple Users,Resolved,L2 Support,Amit Desai,Mumbai,Legal,Active Directory,Database timeout,Yes,No,20,Hardware failure,10,May-25,Q2-2025
+PRB0000356,31-03-2025 08:39,04-04-2025 08:39,Email/Collaboration,1 - Critical,4 - Individual,Resolved,DB Admins,Amit Desai,Hyderabad,Procurement,Firewall-01,Cannot login,Yes,Yes,10,Vendor issue,4,Mar-25,Q1-2025
+PRB0000357,18-02-2025 00:52,,Database,3 - Medium,1 - Enterprise,In Progress,Infra Team,Rohan Verma,Pune,HR,SAP Production,System not responding,No,Yes,17,Vendor issue,,Feb-25,Q1-2025
+PRB0000358,21-03-2025 17:13,11-04-2025 17:13,Application,3 - Medium,2 - Department,Closed,L2 Support,Rohan Verma,Mumbai,Operations,Email Gateway,Application error,Yes,No,7,Hardware failure,21,Mar-25,Q1-2025
+PRB0000359,19-12-2025 23:03,,Access Management,3 - Medium,1 - Enterprise,Open,L2 Support,Pooja Iyer,Delhi NCR,Procurement,Oracle DB,Slow performance,Yes,No,1,Human error,,Dec-25,Q4-2025
+PRB0000360,07-08-2025 04:39,27-09-2025 04:39,Access Management,2 - High,2 - Department,Closed,DB Admins,Amit Desai,Pune,HR,ERP Server,Application error,No,No,1,Human error,51,Aug-25,Q3-2025
+PRB0000361,16-11-2025 17:28,28-12-2025 17:28,Hardware,2 - High,4 - Individual,Resolved,DB Admins,Anjali Singh,Mumbai,Legal,ERP Server,VPN disconnecting,No,Yes,8,Hardware failure,42,Nov-25,Q4-2025
+PRB0000362,27-01-2025 13:04,,Email/Collaboration,3 - Medium,4 - Individual,Open,DB Admins,Sneha Patil,Chennai,IT,Active Directory,System not responding,No,No,12,Network fault,,Jan-25,Q1-2025
+PRB0000363,16-03-2025 20:11,20-03-2025 20:11,Hardware,3 - Medium,2 - Department,Resolved,Network Ops,Rahul Sharma,Delhi NCR,Legal,VPN Gateway,Email not working,No,Yes,20,Hardware failure,4,Mar-25,Q1-2025
+PRB0000364,13-08-2025 09:13,30-09-2025 09:13,Access Management,4 - Low,3 - Multiple Users,Resolved,L1 Support,Rohan Verma,Pune,Procurement,Oracle DB,Application error,No,No,16,Human error,48,Aug-25,Q3-2025
+PRB0000365,03-08-2025 07:38,,Application,3 - Medium,4 - Individual,In Progress,L1 Support,Deepak Nair,Chennai,Finance,Oracle DB,Cannot login,Yes,No,6,Software defect,,Aug-25,Q3-2025
+PRB0000366,08-07-2025 06:13,,Network,1 - Critical,2 - Department,In Progress,Security Ops,Priya Menon,Delhi NCR,Procurement,Oracle DB,Email not working,Yes,Yes,24,Hardware failure,,Jul-25,Q3-2025
+PRB0000367,05-07-2025 15:50,22-08-2025 15:50,Access Management,4 - Low,4 - Individual,Resolved,L1 Support,Amit Desai,Mumbai,Procurement,VPN Gateway,Network outage,No,No,6,Network fault,48,Jul-25,Q3-2025
+PRB0000368,01-06-2025 01:44,,Database,4 - Low,2 - Department,Open,Security Ops,Priya Menon,Mumbai,Marketing,Oracle DB,VPN disconnecting,No,No,22,Capacity issue,,Jun-25,Q2-2025
+PRB0000369,11-08-2025 12:09,,Database,1 - Critical,4 - Individual,Open,Security Ops,Pooja Iyer,Delhi NCR,IT,CRM Application,System not responding,No,Yes,4,Vendor issue,,Aug-25,Q3-2025
+PRB0000370,25-11-2025 03:04,,Security,4 - Low,2 - Department,In Progress,Infra Team,Anjali Singh,Pune,HR,ERP Server,Application error,Yes,Yes,17,Software defect,,Nov-25,Q4-2025
+PRB0000371,26-11-2025 03:37,02-12-2025 03:37,Application,1 - Critical,1 - Enterprise,Resolved,Security Ops,Amit Desai,Pune,Sales,Load Balancer,VPN disconnecting,No,No,11,Configuration error,6,Nov-25,Q4-2025
+PRB0000372,25-04-2025 02:24,04-07-2025 02:24,Application,2 - High,1 - Enterprise,Closed,Security Ops,Pooja Iyer,Delhi NCR,Finance,Active Directory,VPN disconnecting,Yes,No,14,Network fault,70,Apr-25,Q2-2025
+PRB0000373,25-01-2025 06:56,18-02-2025 06:56,Application,2 - High,2 - Department,Closed,L2 Support,Amit Desai,Hyderabad,Operations,Load Balancer,Printer offline,No,No,13,Hardware failure,24,Jan-25,Q1-2025
+PRB0000374,15-11-2025 19:18,,Database,4 - Low,4 - Individual,In Progress,DB Admins,Rohan Verma,Mumbai,Sales,Active Directory,Database timeout,No,Yes,8,Human error,,Nov-25,Q4-2025
+PRB0000375,09-04-2025 17:49,19-05-2025 17:49,Access Management,4 - Low,4 - Individual,Resolved,L1 Support,Pooja Iyer,Hyderabad,Operations,SAP Production,Email not working,Yes,No,16,Network fault,40,Apr-25,Q2-2025
+PRB0000376,17-03-2025 01:54,,Access Management,4 - Low,4 - Individual,In Progress,L2 Support,Kavya Reddy,Bangalore,Operations,CRM Application,System not responding,Yes,No,24,Configuration error,,Mar-25,Q1-2025
+PRB0000377,05-03-2025 19:02,29-04-2025 19:02,Hardware,3 - Medium,4 - Individual,Closed,Network Ops,Sneha Patil,Pune,IT,Firewall-01,Service unavailable,Yes,Yes,23,Hardware failure,55,Mar-25,Q1-2025
+PRB0000378,17-06-2025 22:11,,Network,3 - Medium,1 - Enterprise,In Progress,Network Ops,Vikram Joshi,Mumbai,Procurement,Core Switch,Database timeout,No,No,16,Human error,,Jun-25,Q2-2025
+PRB0000379,23-12-2025 18:20,,Hardware,1 - Critical,2 - Department,In Progress,App Support,Deepak Nair,Chennai,Marketing,Active Directory,System not responding,Yes,Yes,5,Configuration error,,Dec-25,Q4-2025
+PRB0000380,14-04-2025 20:42,,Application,3 - Medium,1 - Enterprise,In Progress,DB Admins,Rahul Sharma,Pune,Finance,Firewall-01,Printer offline,Yes,Yes,19,Capacity issue,,Apr-25,Q2-2025
+PRB0000381,14-11-2025 08:37,20-11-2025 08:37,Database,1 - Critical,3 - Multiple Users,Closed,App Support,Vikram Joshi,Mumbai,HR,Active Directory,Network outage,No,Yes,15,Hardware failure,6,Nov-25,Q4-2025
+PRB0000382,12-08-2025 07:28,31-10-2025 07:28,Hardware,3 - Medium,2 - Department,Resolved,App Support,Sneha Patil,Mumbai,Procurement,SAP Production,Application error,Yes,No,14,Hardware failure,80,Aug-25,Q3-2025
+PRB0000383,06-12-2025 14:32,,Application,2 - High,3 - Multiple Users,In Progress,L1 Support,Kavya Reddy,Pune,IT,Firewall-01,Service unavailable,Yes,Yes,14,Network fault,,Dec-25,Q4-2025
+PRB0000384,29-01-2025 13:08,12-03-2025 13:08,Database,1 - Critical,3 - Multiple Users,Resolved,Infra Team,Rohan Verma,Kolkata,Sales,Active Directory,Slow performance,No,Yes,22,Software defect,42,Jan-25,Q1-2025
+PRB0000385,04-01-2025 08:08,,Access Management,4 - Low,1 - Enterprise,Open,Infra Team,Anjali Singh,Kolkata,HR,Oracle DB,VPN disconnecting,No,No,5,Configuration error,,Jan-25,Q1-2025
+PRB0000386,23-05-2025 17:01,07-06-2025 17:01,Security,4 - Low,2 - Department,Resolved,Security Ops,Anjali Singh,Chennai,Sales,Firewall-01,Email not working,No,Yes,25,Human error,15,May-25,Q2-2025
+PRB0000387,04-10-2025 21:16,28-10-2025 21:16,Email/Collaboration,3 - Medium,4 - Individual,Closed,L2 Support,Priya Menon,Hyderabad,Procurement,Oracle DB,System not responding,Yes,No,6,Configuration error,24,Oct-25,Q4-2025
+PRB0000388,26-11-2025 01:43,06-12-2025 01:43,Access Management,4 - Low,2 - Department,Closed,L1 Support,Anjali Singh,Pune,HR,ERP Server,System not responding,Yes,Yes,10,Hardware failure,10,Nov-25,Q4-2025
+PRB0000389,13-08-2025 03:59,,Software,2 - High,3 - Multiple Users,In Progress,DB Admins,Deepak Nair,Delhi NCR,Procurement,Core Switch,Application error,No,No,6,Human error,,Aug-25,Q3-2025
+PRB0000390,02-04-2025 05:04,24-06-2025 05:04,Hardware,3 - Medium,3 - Multiple Users,Closed,Infra Team,Rahul Sharma,Bangalore,Finance,Firewall-01,System not responding,No,No,4,Network fault,83,Apr-25,Q2-2025
+PRB0000391,27-11-2025 13:15,,Application,3 - Medium,3 - Multiple Users,In Progress,DB Admins,Amit Desai,Hyderabad,HR,Oracle DB,Service unavailable,Yes,Yes,6,Capacity issue,,Nov-25,Q4-2025
+PRB0000392,26-02-2025 04:28,,Database,1 - Critical,4 - Individual,Open,L1 Support,Rahul Sharma,Kolkata,IT,Active Directory,Application error,No,Yes,13,Hardware failure,,Feb-25,Q1-2025
+PRB0000393,28-01-2025 15:33,12-03-2025 15:33,Network,4 - Low,1 - Enterprise,Resolved,Network Ops,Priya Menon,Bangalore,Marketing,Active Directory,Email not working,No,Yes,22,Network fault,43,Jan-25,Q1-2025
+PRB0000394,20-04-2025 21:11,,Security,3 - Medium,4 - Individual,Open,Network Ops,Sneha Patil,Pune,Operations,CRM Application,Network outage,No,No,1,Configuration error,,Apr-25,Q2-2025
+PRB0000395,03-02-2025 22:14,16-04-2025 22:14,Network,3 - Medium,4 - Individual,Closed,Network Ops,Priya Menon,Hyderabad,Procurement,Active Directory,VPN disconnecting,Yes,No,7,Vendor issue,72,Feb-25,Q1-2025
+PRB0000396,16-07-2025 07:33,06-10-2025 07:33,Software,4 - Low,4 - Individual,Closed,Infra Team,Rahul Sharma,Mumbai,Operations,Email Gateway,Network outage,Yes,No,25,Capacity issue,82,Jul-25,Q3-2025
+PRB0000397,28-10-2025 18:02,,Access Management,4 - Low,1 - Enterprise,In Progress,Network Ops,Vikram Joshi,Kolkata,HR,Email Gateway,Email not working,Yes,No,18,Vendor issue,,Oct-25,Q4-2025
+PRB0000398,13-10-2025 21:52,06-12-2025 21:52,Network,3 - Medium,3 - Multiple Users,Closed,DB Admins,Pooja Iyer,Mumbai,Sales,ERP Server,Printer offline,Yes,No,18,Configuration error,54,Oct-25,Q4-2025
+PRB0000399,24-07-2025 02:51,09-09-2025 02:51,Database,2 - High,4 - Individual,Resolved,Security Ops,Sneha Patil,Chennai,IT,Firewall-01,Service unavailable,Yes,No,22,Network fault,47,Jul-25,Q3-2025
+PRB0000400,26-03-2025 04:18,19-04-2025 04:18,Database,2 - High,1 - Enterprise,Resolved,Security Ops,Amit Desai,Mumbai,HR,ERP Server,VPN disconnecting,Yes,Yes,15,Human error,24,Mar-25,Q1-2025
+PRB0000401,14-07-2025 19:11,,Network,1 - Critical,1 - Enterprise,Open,Infra Team,Anjali Singh,Pune,Marketing,Email Gateway,Network outage,No,Yes,23,Configuration error,,Jul-25,Q3-2025
+PRB0000402,12-11-2025 18:25,,Software,4 - Low,1 - Enterprise,Open,L1 Support,Amit Desai,Bangalore,Sales,SAP Production,Cannot login,Yes,No,4,Human error,,Nov-25,Q4-2025
+PRB0000403,07-12-2025 18:21,24-12-2025 18:21,Email/Collaboration,3 - Medium,3 - Multiple Users,Resolved,L1 Support,Sneha Patil,Kolkata,Operations,Oracle DB,Service unavailable,No,Yes,2,Software defect,17,Dec-25,Q4-2025
+PRB0000404,13-02-2025 14:16,,Network,1 - Critical,4 - Individual,In Progress,L1 Support,Rahul Sharma,Hyderabad,HR,Core Switch,Printer offline,No,No,22,Capacity issue,,Feb-25,Q1-2025
+PRB0000405,01-06-2025 10:05,,Application,2 - High,3 - Multiple Users,In Progress,Network Ops,Sneha Patil,Mumbai,Marketing,Email Gateway,VPN disconnecting,Yes,Yes,10,Software defect,,Jun-25,Q2-2025
+PRB0000406,24-01-2025 04:01,,Email/Collaboration,1 - Critical,1 - Enterprise,Open,L2 Support,Rohan Verma,Pune,HR,Core Switch,System not responding,Yes,Yes,7,Human error,,Jan-25,Q1-2025
+PRB0000407,03-06-2025 23:27,03-07-2025 23:27,Software,1 - Critical,4 - Individual,Resolved,Infra Team,Vikram Joshi,Kolkata,IT,Oracle DB,Slow performance,Yes,No,3,Hardware failure,30,Jun-25,Q2-2025
+PRB0000408,19-08-2025 07:25,28-10-2025 07:25,Software,3 - Medium,3 - Multiple Users,Resolved,Infra Team,Priya Menon,Hyderabad,Operations,CRM Application,Application error,Yes,Yes,12,Vendor issue,70,Aug-25,Q3-2025
+PRB0000409,26-06-2025 23:44,,Network,4 - Low,1 - Enterprise,In Progress,L1 Support,Deepak Nair,Delhi NCR,Operations,Email Gateway,Application error,Yes,Yes,13,Human error,,Jun-25,Q2-2025
+PRB0000410,06-02-2025 03:24,18-03-2025 03:24,Security,4 - Low,3 - Multiple Users,Closed,L1 Support,Vikram Joshi,Delhi NCR,IT,Email Gateway,Service unavailable,Yes,No,23,Capacity issue,40,Feb-25,Q1-2025
+PRB0000411,27-12-2025 01:05,06-01-2026 01:05,Access Management,3 - Medium,2 - Department,Resolved,L2 Support,Pooja Iyer,Hyderabad,Procurement,ERP Server,VPN disconnecting,No,No,10,Vendor issue,10,Dec-25,Q4-2025
+PRB0000412,24-07-2025 22:43,,Email/Collaboration,4 - Low,4 - Individual,Open,L1 Support,Rohan Verma,Bangalore,IT,CRM Application,Email not working,No,Yes,21,Hardware failure,,Jul-25,Q3-2025
+PRB0000413,03-03-2025 21:15,05-04-2025 21:15,Application,3 - Medium,4 - Individual,Resolved,App Support,Rahul Sharma,Mumbai,Procurement,Active Directory,Printer offline,Yes,Yes,15,Network fault,33,Mar-25,Q1-2025
+PRB0000414,14-04-2025 20:46,,Network,2 - High,1 - Enterprise,Open,L1 Support,Rahul Sharma,Bangalore,IT,Load Balancer,Service unavailable,Yes,No,12,Human error,,Apr-25,Q2-2025
+PRB0000415,24-02-2025 22:10,,Application,3 - Medium,4 - Individual,In Progress,App Support,Kavya Reddy,Bangalore,Sales,Active Directory,Email not working,Yes,No,20,Capacity issue,,Feb-25,Q1-2025
+PRB0000416,07-07-2025 03:43,06-09-2025 03:43,Security,3 - Medium,2 - Department,Closed,Security Ops,Amit Desai,Pune,HR,VPN Gateway,Service unavailable,Yes,No,15,Vendor issue,61,Jul-25,Q3-2025
+PRB0000417,30-01-2025 14:30,24-04-2025 14:30,Access Management,1 - Critical,2 - Department,Resolved,Network Ops,Rohan Verma,Hyderabad,Legal,Active Directory,Slow performance,Yes,Yes,1,Configuration error,84,Jan-25,Q1-2025
+PRB0000418,17-07-2025 22:51,25-09-2025 22:51,Software,4 - Low,3 - Multiple Users,Closed,App Support,Rohan Verma,Delhi NCR,Sales,ERP Server,Database timeout,No,Yes,8,Software defect,70,Jul-25,Q3-2025
+PRB0000419,30-07-2025 01:37,09-10-2025 01:37,Email/Collaboration,3 - Medium,2 - Department,Closed,L2 Support,Vikram Joshi,Hyderabad,HR,Email Gateway,Printer offline,No,No,20,Hardware failure,71,Jul-25,Q3-2025
+PRB0000420,12-11-2025 06:22,,Access Management,2 - High,1 - Enterprise,In Progress,Network Ops,Rohan Verma,Kolkata,Legal,VPN Gateway,Slow performance,No,Yes,13,Software defect,,Nov-25,Q4-2025
+PRB0000421,05-06-2025 22:19,05-07-2025 22:19,Hardware,2 - High,3 - Multiple Users,Closed,L1 Support,Kavya Reddy,Pune,Operations,Email Gateway,Network outage,No,No,4,Configuration error,30,Jun-25,Q2-2025
+PRB0000422,08-11-2025 04:47,17-11-2025 04:47,Security,1 - Critical,4 - Individual,Resolved,Infra Team,Rahul Sharma,Bangalore,Marketing,Active Directory,Slow performance,Yes,Yes,4,Vendor issue,9,Nov-25,Q4-2025
+PRB0000423,17-10-2025 22:14,,Security,4 - Low,4 - Individual,In Progress,DB Admins,Pooja Iyer,Delhi NCR,Operations,Core Switch,Service unavailable,Yes,Yes,23,Network fault,,Oct-25,Q4-2025
+PRB0000424,02-12-2025 04:44,05-12-2025 04:44,Security,3 - Medium,2 - Department,Resolved,L1 Support,Vikram Joshi,Chennai,Finance,Firewall-01,Slow performance,No,Yes,23,Software defect,3,Dec-25,Q4-2025
+PRB0000425,20-09-2025 11:09,16-10-2025 11:09,Database,2 - High,2 - Department,Resolved,Security Ops,Sneha Patil,Kolkata,Sales,Oracle DB,Application error,No,No,21,Software defect,26,Sep-25,Q3-2025
+PRB0000426,24-12-2025 18:42,,Email/Collaboration,1 - Critical,1 - Enterprise,In Progress,Security Ops,Kavya Reddy,Pune,Legal,SAP Production,Network outage,No,Yes,8,Human error,,Dec-25,Q4-2025
+PRB0000427,24-09-2025 11:53,,Access Management,2 - High,2 - Department,In Progress,Security Ops,Deepak Nair,Delhi NCR,Procurement,CRM Application,Database timeout,Yes,Yes,21,Network fault,,Sep-25,Q3-2025
+PRB0000428,04-12-2025 23:59,11-12-2025 23:59,Application,4 - Low,3 - Multiple Users,Resolved,Security Ops,Rohan Verma,Kolkata,Legal,ERP Server,Cannot login,No,No,5,Capacity issue,7,Dec-25,Q4-2025
+PRB0000429,03-07-2025 17:34,28-07-2025 17:34,Network,1 - Critical,3 - Multiple Users,Resolved,Network Ops,Vikram Joshi,Pune,Legal,Oracle DB,Cannot login,Yes,Yes,24,Hardware failure,25,Jul-25,Q3-2025
+PRB0000430,03-05-2025 00:04,10-06-2025 00:04,Access Management,3 - Medium,1 - Enterprise,Resolved,Security Ops,Vikram Joshi,Bangalore,Procurement,Active Directory,Network outage,No,No,14,Vendor issue,38,May-25,Q2-2025
+PRB0000431,24-01-2025 14:04,10-03-2025 14:04,Application,4 - Low,1 - Enterprise,Closed,App Support,Amit Desai,Kolkata,HR,ERP Server,Slow performance,No,Yes,10,Hardware failure,45,Jan-25,Q1-2025
+PRB0000432,20-04-2025 08:01,,Security,1 - Critical,1 - Enterprise,Open,Infra Team,Priya Menon,Delhi NCR,Marketing,Active Directory,Network outage,No,Yes,4,Hardware failure,,Apr-25,Q2-2025
+PRB0000433,17-03-2025 01:53,08-06-2025 01:53,Email/Collaboration,1 - Critical,2 - Department,Closed,DB Admins,Vikram Joshi,Hyderabad,Sales,Oracle DB,Email not working,Yes,Yes,17,Network fault,83,Mar-25,Q1-2025
+PRB0000434,21-05-2025 04:12,,Security,1 - Critical,2 - Department,In Progress,DB Admins,Sneha Patil,Chennai,HR,Core Switch,Printer offline,No,Yes,6,Software defect,,May-25,Q2-2025
+PRB0000435,01-10-2025 02:45,12-12-2025 02:45,Application,4 - Low,1 - Enterprise,Closed,L1 Support,Amit Desai,Chennai,Sales,ERP Server,Cannot login,No,Yes,18,Hardware failure,72,Oct-25,Q4-2025
+PRB0000436,18-02-2025 18:21,,Hardware,1 - Critical,1 - Enterprise,In Progress,Security Ops,Anjali Singh,Mumbai,Sales,CRM Application,Database timeout,No,No,9,Vendor issue,,Feb-25,Q1-2025
+PRB0000437,11-11-2025 20:34,22-12-2025 20:34,Security,1 - Critical,3 - Multiple Users,Closed,L2 Support,Amit Desai,Pune,Finance,Oracle DB,Slow performance,No,No,23,Vendor issue,41,Nov-25,Q4-2025
+PRB0000438,06-01-2025 10:51,08-03-2025 10:51,Application,2 - High,4 - Individual,Resolved,DB Admins,Amit Desai,Bangalore,Legal,Oracle DB,Service unavailable,No,No,11,Configuration error,61,Jan-25,Q1-2025
+PRB0000439,02-02-2025 19:08,24-04-2025 19:08,Database,1 - Critical,4 - Individual,Resolved,L2 Support,Anjali Singh,Hyderabad,Legal,CRM Application,System not responding,No,Yes,2,Software defect,81,Feb-25,Q1-2025
+PRB0000440,12-01-2025 10:49,08-04-2025 10:49,Application,4 - Low,3 - Multiple Users,Resolved,Network Ops,Rohan Verma,Mumbai,Sales,Core Switch,Printer offline,No,Yes,6,Software defect,86,Jan-25,Q1-2025
+PRB0000441,19-12-2025 02:15,23-12-2025 02:15,Email/Collaboration,3 - Medium,4 - Individual,Closed,App Support,Pooja Iyer,Pune,IT,CRM Application,Network outage,No,No,18,Hardware failure,4,Dec-25,Q4-2025
+PRB0000442,23-04-2025 15:54,,Software,3 - Medium,1 - Enterprise,In Progress,Network Ops,Rohan Verma,Bangalore,Operations,Email Gateway,Database timeout,No,No,7,Hardware failure,,Apr-25,Q2-2025
+PRB0000443,31-08-2025 21:48,04-10-2025 21:48,Security,1 - Critical,1 - Enterprise,Resolved,Security Ops,Pooja Iyer,Chennai,HR,Oracle DB,Service unavailable,Yes,No,16,Capacity issue,34,Aug-25,Q3-2025
+PRB0000444,17-12-2025 03:20,,Network,2 - High,1 - Enterprise,Open,App Support,Anjali Singh,Kolkata,HR,Active Directory,Slow performance,No,No,25,Vendor issue,,Dec-25,Q4-2025
+PRB0000445,27-07-2025 02:51,31-08-2025 02:51,Database,1 - Critical,3 - Multiple Users,Closed,L2 Support,Amit Desai,Chennai,HR,ERP Server,Cannot login,No,Yes,9,Network fault,35,Jul-25,Q3-2025
+PRB0000446,28-01-2026 12:27,,Application,1 - Critical,4 - Individual,In Progress,App Support,Anjali Singh,Mumbai,Sales,VPN Gateway,Database timeout,Yes,Yes,6,Network fault,,Jan-26,Q1-2026
+PRB0000447,24-03-2026 23:23,,Security,3 - Medium,1 - Enterprise,In Progress,Network Ops,Pooja Iyer,Kolkata,Sales,CRM Application,Database timeout,Yes,Yes,25,Network fault,,Mar-26,Q1-2026
+PRB0000448,17-02-2026 18:19,03-05-2026 18:19,Database,2 - High,4 - Individual,Closed,DB Admins,Vikram Joshi,Pune,Operations,Email Gateway,VPN disconnecting,No,Yes,21,Human error,75,Feb-26,Q1-2026
+PRB0000449,28-05-2026 10:51,,Software,4 - Low,3 - Multiple Users,Open,L1 Support,Sneha Patil,Kolkata,Procurement,CRM Application,Application error,Yes,No,7,Capacity issue,,May-26,Q2-2026
+PRB0000450,03-04-2026 19:39,13-04-2026 19:39,Hardware,3 - Medium,4 - Individual,Resolved,Security Ops,Vikram Joshi,Kolkata,Finance,Core Switch,Network outage,No,Yes,2,Human error,10,Apr-26,Q2-2026
+PRB0000451,20-02-2026 07:57,,Software,4 - Low,4 - Individual,Open,Security Ops,Anjali Singh,Mumbai,Sales,Firewall-01,Printer offline,No,No,2,Software defect,,Feb-26,Q1-2026
+PRB0000452,12-02-2026 10:04,,Hardware,2 - High,1 - Enterprise,In Progress,Network Ops,Priya Menon,Kolkata,Sales,Email Gateway,Database timeout,No,Yes,24,Capacity issue,,Feb-26,Q1-2026
+PRB0000453,10-01-2026 13:14,24-02-2026 13:14,Email/Collaboration,3 - Medium,1 - Enterprise,Resolved,DB Admins,Anjali Singh,Bangalore,IT,Core Switch,Printer offline,No,No,21,Hardware failure,45,Jan-26,Q1-2026
+PRB0000454,22-03-2026 13:31,22-05-2026 13:31,Network,3 - Medium,4 - Individual,Closed,Infra Team,Rahul Sharma,Bangalore,Sales,VPN Gateway,Slow performance,Yes,No,10,Vendor issue,61,Mar-26,Q1-2026
+PRB0000455,09-04-2026 17:39,19-04-2026 17:39,Security,4 - Low,2 - Department,Resolved,Infra Team,Deepak Nair,Mumbai,Sales,Load Balancer,Network outage,No,No,11,Configuration error,10,Apr-26,Q2-2026
+PRB0000456,08-01-2026 11:53,04-04-2026 11:53,Software,4 - Low,2 - Department,Resolved,L2 Support,Rohan Verma,Kolkata,Sales,Load Balancer,System not responding,Yes,Yes,8,Capacity issue,86,Jan-26,Q1-2026
+PRB0000457,28-05-2026 02:44,,Database,4 - Low,3 - Multiple Users,Open,L1 Support,Priya Menon,Chennai,Procurement,Oracle DB,System not responding,Yes,No,7,Network fault,,May-26,Q2-2026
+PRB0000458,30-04-2026 07:28,,Software,2 - High,1 - Enterprise,In Progress,DB Admins,Amit Desai,Mumbai,Legal,Oracle DB,Database timeout,No,No,10,Network fault,,Apr-26,Q2-2026
+PRB0000459,22-02-2026 21:49,,Software,1 - Critical,3 - Multiple Users,In Progress,Infra Team,Amit Desai,Mumbai,IT,Firewall-01,Email not working,No,Yes,7,Vendor issue,,Feb-26,Q1-2026
+PRB0000460,01-06-2026 18:01,,Email/Collaboration,3 - Medium,1 - Enterprise,In Progress,L1 Support,Amit Desai,Chennai,Operations,CRM Application,Application error,No,Yes,22,Hardware failure,,Jun-26,Q2-2026
+PRB0000461,04-02-2026 12:52,,Application,1 - Critical,1 - Enterprise,Open,DB Admins,Deepak Nair,Chennai,Marketing,Active Directory,Database timeout,No,No,22,Human error,,Feb-26,Q1-2026
+PRB0000462,28-01-2026 06:34,,Security,2 - High,4 - Individual,In Progress,L1 Support,Rahul Sharma,Chennai,Procurement,ERP Server,System not responding,No,No,12,Human error,,Jan-26,Q1-2026
+PRB0000463,14-05-2026 19:07,,Hardware,3 - Medium,2 - Department,In Progress,Infra Team,Sneha Patil,Delhi NCR,IT,Oracle DB,Slow performance,Yes,No,13,Network fault,,May-26,Q2-2026
+PRB0000464,14-03-2026 18:35,05-05-2026 18:35,Hardware,1 - Critical,4 - Individual,Resolved,Infra Team,Amit Desai,Chennai,IT,ERP Server,Database timeout,No,No,11,Vendor issue,52,Mar-26,Q1-2026
+PRB0000465,05-04-2026 17:19,,Database,2 - High,4 - Individual,Open,App Support,Anjali Singh,Kolkata,Finance,Oracle DB,Network outage,Yes,Yes,11,Configuration error,,Apr-26,Q2-2026
+PRB0000466,18-03-2026 16:08,31-05-2026 16:08,Network,2 - High,2 - Department,Closed,L2 Support,Amit Desai,Bangalore,IT,Load Balancer,Email not working,No,No,14,Configuration error,74,Mar-26,Q1-2026
+PRB0000467,05-06-2026 09:01,15-06-2026 09:01,Software,3 - Medium,3 - Multiple Users,Resolved,App Support,Pooja Iyer,Kolkata,Marketing,Email Gateway,Email not working,No,Yes,8,Hardware failure,10,Jun-26,Q2-2026
+PRB0000468,07-02-2026 08:02,31-03-2026 08:02,Hardware,2 - High,3 - Multiple Users,Closed,App Support,Deepak Nair,Delhi NCR,Legal,Core Switch,VPN disconnecting,Yes,No,2,Human error,52,Feb-26,Q1-2026
+PRB0000469,11-01-2026 11:12,,Application,3 - Medium,4 - Individual,Open,Security Ops,Vikram Joshi,Pune,Finance,Oracle DB,Service unavailable,Yes,No,20,Capacity issue,,Jan-26,Q1-2026
+PRB0000470,10-03-2026 20:51,08-05-2026 20:51,Hardware,3 - Medium,4 - Individual,Resolved,Network Ops,Sneha Patil,Mumbai,Procurement,Oracle DB,Database timeout,Yes,Yes,16,Human error,59,Mar-26,Q1-2026
+PRB0000471,17-03-2026 09:08,,Network,2 - High,2 - Department,Open,DB Admins,Deepak Nair,Pune,Finance,SAP Production,VPN disconnecting,Yes,Yes,24,Software defect,,Mar-26,Q1-2026
+PRB0000472,11-03-2026 12:16,,Security,2 - High,1 - Enterprise,In Progress,L2 Support,Deepak Nair,Delhi NCR,Marketing,VPN Gateway,Service unavailable,Yes,Yes,8,Capacity issue,,Mar-26,Q1-2026
+PRB0000473,16-02-2026 15:40,,Application,4 - Low,1 - Enterprise,In Progress,Network Ops,Deepak Nair,Kolkata,Legal,SAP Production,VPN disconnecting,No,Yes,20,Vendor issue,,Feb-26,Q1-2026
+PRB0000474,12-03-2026 20:20,28-04-2026 20:20,Email/Collaboration,3 - Medium,2 - Department,Resolved,L2 Support,Priya Menon,Hyderabad,IT,Firewall-01,Cannot login,No,No,12,Software defect,47,Mar-26,Q1-2026
+PRB0000475,15-05-2026 19:33,18-05-2026 19:33,Software,4 - Low,2 - Department,Closed,App Support,Anjali Singh,Chennai,HR,CRM Application,Application error,Yes,No,7,Configuration error,3,May-26,Q2-2026
+PRB0000476,05-05-2026 17:09,,Software,3 - Medium,1 - Enterprise,In Progress,L1 Support,Rahul Sharma,Delhi NCR,HR,Active Directory,Network outage,No,Yes,14,Hardware failure,,May-26,Q2-2026
+PRB0000477,15-03-2026 23:23,,Access Management,3 - Medium,1 - Enterprise,Open,App Support,Rohan Verma,Bangalore,HR,Load Balancer,Slow performance,No,Yes,19,Human error,,Mar-26,Q1-2026
+PRB0000478,13-04-2026 10:28,,Software,4 - Low,3 - Multiple Users,In Progress,DB Admins,Vikram Joshi,Chennai,Procurement,CRM Application,Application error,Yes,Yes,20,Vendor issue,,Apr-26,Q2-2026
+PRB0000479,04-02-2026 21:30,01-04-2026 21:30,Application,3 - Medium,2 - Department,Resolved,App Support,Kavya Reddy,Bangalore,Legal,CRM Application,VPN disconnecting,No,No,6,Vendor issue,56,Feb-26,Q1-2026
+PRB0000480,07-03-2026 17:37,14-05-2026 17:37,Access Management,2 - High,1 - Enterprise,Closed,L2 Support,Pooja Iyer,Hyderabad,IT,CRM Application,VPN disconnecting,Yes,Yes,7,Human error,68,Mar-26,Q1-2026
+PRB0000481,26-03-2026 10:52,22-05-2026 10:52,Network,4 - Low,3 - Multiple Users,Closed,DB Admins,Deepak Nair,Delhi NCR,Legal,Oracle DB,Cannot login,No,Yes,12,Vendor issue,57,Mar-26,Q1-2026
+PRB0000482,25-02-2026 20:47,29-04-2026 20:47,Access Management,2 - High,1 - Enterprise,Closed,L2 Support,Amit Desai,Delhi NCR,Procurement,Firewall-01,Cannot login,No,No,20,Hardware failure,63,Feb-26,Q1-2026
+PRB0000483,23-05-2026 13:11,24-05-2026 13:11,Network,3 - Medium,4 - Individual,Resolved,Infra Team,Anjali Singh,Delhi NCR,Procurement,Email Gateway,Email not working,No,Yes,6,Network fault,1,May-26,Q2-2026
+PRB0000484,02-05-2026 06:34,,Software,2 - High,3 - Multiple Users,In Progress,Security Ops,Anjali Singh,Hyderabad,Procurement,Active Directory,Cannot login,Yes,No,8,Capacity issue,,May-26,Q2-2026
+PRB0000485,21-01-2026 06:33,,Database,3 - Medium,3 - Multiple Users,Open,DB Admins,Priya Menon,Kolkata,HR,CRM Application,Service unavailable,No,No,25,Hardware failure,,Jan-26,Q1-2026
+PRB0000486,14-01-2026 12:29,,Software,4 - Low,2 - Department,Open,Network Ops,Anjali Singh,Delhi NCR,HR,SAP Production,System not responding,No,Yes,13,Human error,,Jan-26,Q1-2026
+PRB0000487,25-02-2026 13:46,26-04-2026 13:46,Email/Collaboration,2 - High,2 - Department,Closed,Security Ops,Anjali Singh,Bangalore,Procurement,Active Directory,Slow performance,Yes,No,16,Hardware failure,60,Feb-26,Q1-2026
+PRB0000488,31-05-2026 23:11,08-06-2026 23:11,Email/Collaboration,4 - Low,1 - Enterprise,Closed,L1 Support,Amit Desai,Kolkata,Operations,Email Gateway,Email not working,No,Yes,9,Software defect,8,May-26,Q2-2026
+PRB0000489,20-01-2026 23:54,,Application,1 - Critical,3 - Multiple Users,Open,Network Ops,Priya Menon,Bangalore,Marketing,VPN Gateway,Cannot login,No,Yes,25,Hardware failure,,Jan-26,Q1-2026
+PRB0000490,19-04-2026 16:53,,Network,1 - Critical,3 - Multiple Users,Open,Infra Team,Priya Menon,Bangalore,Marketing,Oracle DB,Slow performance,No,No,1,Hardware failure,,Apr-26,Q2-2026
+PRB0000491,09-03-2026 09:29,,Hardware,2 - High,2 - Department,In Progress,DB Admins,Pooja Iyer,Mumbai,Marketing,Email Gateway,Slow performance,No,No,5,Vendor issue,,Mar-26,Q1-2026
+PRB0000492,25-05-2026 05:06,28-05-2026 05:06,Application,2 - High,3 - Multiple Users,Resolved,Infra Team,Pooja Iyer,Kolkata,Procurement,Load Balancer,Printer offline,Yes,No,5,Configuration error,3,May-26,Q2-2026
+PRB0000493,26-03-2026 15:50,24-05-2026 15:50,Software,4 - Low,2 - Department,Resolved,Network Ops,Deepak Nair,Delhi NCR,Procurement,ERP Server,Database timeout,No,No,1,Capacity issue,59,Mar-26,Q1-2026
+PRB0000494,10-05-2026 06:38,,Software,1 - Critical,1 - Enterprise,Open,L1 Support,Vikram Joshi,Kolkata,Procurement,Load Balancer,Slow performance,No,No,21,Configuration error,,May-26,Q2-2026
+PRB0000495,25-01-2026 00:12,,Database,1 - Critical,1 - Enterprise,In Progress,DB Admins,Sneha Patil,Hyderabad,Sales,Oracle DB,System not responding,Yes,Yes,13,Capacity issue,,Jan-26,Q1-2026
